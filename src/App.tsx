@@ -1,10 +1,9 @@
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { calendarOutline, search, personOutline, sparklesOutline } from 'ionicons/icons';
+import { calendarNumberOutline, bookmarksOutline, sparklesOutline } from 'ionicons/icons';
 import '@fontsource-variable/onest';
 
-import Today from './components/shared/today/Today';
 import TodayPage from './pages/today/TodayPage';
 import EventsPage from './pages/events/EventsPage';
 import EventPage from './pages/event/EventPage';
@@ -27,6 +26,7 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import './theme/commons.css';
+import MyEventsPage from './pages/myEvents/MyEvents';
 
 setupIonicReact();
 
@@ -45,33 +45,27 @@ const App: React.FC = () => (
           <Route exact path='/calendar'>
             <EventsPage />
           </Route>
-          <Route path='/search'></Route>
-          <Route path='/account'></Route>
+
+          <Route path='/myevents'>
+            <MyEventsPage />
+          </Route>
 
           <Route exact path='/'>
-            <Redirect to='/today' />
+            <Redirect to='/events' />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot='bottom'>
           <IonTabButton tab='today' href='/today'>
-            <Today day={1} />
+            <IonIcon aria-hidden='true' icon={calendarNumberOutline} />
             <IonLabel>Today</IonLabel>
           </IonTabButton>
           <IonTabButton tab='events' href='/events'>
             <IonIcon aria-hidden='true' icon={sparklesOutline} />
             <IonLabel>Events</IonLabel>
           </IonTabButton>
-          <IonTabButton tab='calendar' href='/calendar'>
-            <IonIcon aria-hidden='true' icon={calendarOutline} />
-            <IonLabel>Calendar</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab='search' href='/search'>
-            <IonIcon aria-hidden='true' icon={search} />
-            <IonLabel>Search</IonLabel>
-          </IonTabButton>
-          <IonTabButton tab='account' href='/account'>
-            <IonIcon aria-hidden='true' icon={personOutline} />
-            <IonLabel>My Account</IonLabel>
+          <IonTabButton tab='myevents' href='/myevents'>
+            <IonIcon aria-hidden='true' icon={bookmarksOutline} />
+            <IonLabel>My Events</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

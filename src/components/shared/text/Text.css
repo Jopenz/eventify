@@ -21,6 +21,7 @@
 .text-caption {
   font-weight: 400 !important;
   line-height: 1.2rem;
+  overflow-wrap: break-word;
   color: rgba(var(--ion-text-color-rgb), 0.6);
   margin-block-start: 0;
   margin-block-end: 0;

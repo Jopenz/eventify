@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonText, IonImg, useIonRouter, IonList, IonItem, IonButtons, IonIcon } from '@ionic/react';
-import { chevronBackOutline } from 'ionicons/icons';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonText, IonImg, IonList, IonItem, IonButtons, IonBackButton } from '@ionic/react';
+
 import './EventPage.css';
 import { Caption, Title } from '../../components/shared/text/Text';
 import { RouteComponentProps } from 'react-router';
@@ -9,6 +9,7 @@ import { formatDate } from '../../commons/Helpers';
 import Avatar from '../../components/shared/avatar/Avatar';
 import Price from '../../components/shared/price/Price';
 import Map from '../../components/shared/maps/Map';
+import useUser from '../../hooks/useUser';
 
 interface EventProps
   extends RouteComponentProps<{
@@ -17,13 +18,9 @@ interface EventProps
 
 const EventPage: FC<EventProps> = ({ match }) => {
   const { id } = match.params;
-  const router = useIonRouter();
-
-  const handleBack = () => {
-    router.push('/events', 'back', 'push');
-  };
 
   const { getEvent, loading } = useEvents();
+  const { user } = useUser();
 
   const event = getEvent(id);
 
@@ -34,15 +31,15 @@ const EventPage: FC<EventProps> = ({ match }) => {
 
   return (
     <IonPage className='event-page'>
+      <IonHeader className='ion-no-border' mode='ios'>
+        <IonToolbar>
+          <IonButtons slot='start'>
+            <IonBackButton defaultHref='/events'></IonBackButton>
+          </IonButtons>
+          <IonTitle>Eventify</IonTitle>
+        </IonToolbar>
+      </IonHeader>
       <IonContent fullscreen>
-        <IonHeader className='header-event' collapse='fade'>
-          <IonToolbar color='transparent'>
-            <IonButtons slot='start'>
-              <IonIcon aria-hidden='true' icon={chevronBackOutline} />
-              <IonText onClick={handleBack}>Back to Events</IonText>
-            </IonButtons>
-          </IonToolbar>
-        </IonHeader>
         <div className='event-container'>
           <IonImg className='event-image' src={event.image} />
           <div className='event-info'>

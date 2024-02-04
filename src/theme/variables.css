@@ -75,6 +75,16 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 
+  /** header **/
+  --ion-color-header: linear-gradient(0deg, rgba(var(--ion-background-color-rgb), 1) 0%, rgba(var(--ion-background-color-rgb), 0) 100%);
+  --ion-color-header-rgb: 244, 245, 248;
+  --ion-color-header-contrast: #f4f5f8;
+  --ion-color-header-contrast-rgb: 245, 244, 244;
+  --ion-color-header-shade: #d7d8da;
+  --ion-color-header-tint: #f5f6f9;
+
+  /* 121212 */
+
   /** Custom CSS Variables **/
   --ion-space: 1rem;
   --text-color: #2a2a2a;
@@ -88,12 +98,12 @@ http://ionicframework.com/docs/theming/ */
    */
 
   body {
-    --ion-color-primary: #afccff;
+    --ion-color-primary: #f4f5f8;
     --ion-color-primary-rgb: 175, 204, 255;
     --ion-color-primary-contrast: #000000;
     --ion-color-primary-contrast-rgb: 0, 0, 0;
-    --ion-color-primary-shade: #9ab4e0;
-    --ion-color-primary-tint: #b7d1ff;
+    --ion-color-primary-shade: #f4f5f8;
+    --ion-color-primary-tint: #f4f5f8;
 
     --ion-color-secondary: #50c8ff;
     --ion-color-secondary-rgb: 80, 200, 255;
@@ -150,6 +160,14 @@ http://ionicframework.com/docs/theming/ */
     --ion-color-light-contrast-rgb: 255, 255, 255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+
+    /** header **/
+    --ion-color-header: linear-gradient(180deg, rgba(var(--ion-background-color-rgb), 1) 0%, rgba(var(--ion-background-color-rgb), 0) 100%);
+    --ion-color-header-rgb: 244, 245, 248;
+    --ion-color-header-contrast: #f4f5f8;
+    --ion-color-header-contrast-rgb: 245, 244, 244;
+    --ion-color-header-shade: #d7d8da;
+    --ion-color-header-tint: #f5f6f9;
 
     --ion-background-color: #121212;
   }
@@ -240,6 +258,11 @@ http://ionicframework.com/docs/theming/ */
 
     --ion-card-background: #1e1e1e;
   }
+
+  ion-toolbar {
+    --background: var(--ion-background-color);
+    --color: var(--ion-text-color);
+  }
 }
 
 html {
@@ -251,4 +274,20 @@ html {
   --padding-bottom: 1rem;
   --padding-start: 1rem;
   --padding-end: 1rem;
+}
+
+.ion-color-header {
+  background: var(--ion-color-header);
+  --ion-color-base: var(--ion-color-header);
+  --ion-color-base-rgb: var(--ion-color-header-rgb);
+  --ion-color-contrast: var(--ion-color-header-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-header-contrast-rgb);
+  --ion-color-shade: var(--ion-color-header-shade);
+  --ion-color-tint: var(--ion-color-header-tint);
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 13px;
+  }
 }

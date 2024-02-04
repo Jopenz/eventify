@@ -10,13 +10,12 @@
   justify-content: center;
   height: auto;
   width: 100%;
-  padding-left: var(--ion-space);
-  padding-right: var(--ion-space);
 }
-.toolbar-container {
+
+/* .toolbar-container {
   padding-inline-start: var(--ion-space) !important;
   padding-inline-end: var(--ion-space) !important;
-}
+} */
 
 .capitalize {
   text-transform: capitalize;
@@ -50,6 +49,20 @@
 }
 
 .header {
-  padding-left: var(--ion-space);
-  padding-right: var(--ion-space);
+  /* padding-left: var(--ion-space);
+  padding-right: var(--ion-space); */
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: calc(2 * var(--ion-space));
+    padding-right: calc(2 * var(--ion-space));
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: calc(10 * var(--ion-space));
+    padding-right: calc(10 * var(--ion-space));
+  }
 }

@@ -7,7 +7,7 @@ type State = {
   events: Event[];
   fetchEvents: () => Promise<void>;
   addEvent: (event: Event) => void;
-  removeEvent: (id: string) => void;
+  removeEvent: (id: number) => void;
 };
 
 export const useEventStore = create<State>((set) => ({

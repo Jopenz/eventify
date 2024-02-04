@@ -1,0 +1,18 @@
+.events {
+}
+
+@media (min-width: 640px) {
+  .events {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--ion-space);
+    padding-top: var(--ion-space);
+  }
+}
+
+@media (min-width: 1280px) {
+  .events {
+    grid-template-columns: repeat(5, 1fr);
+    gap: calc(2 * var(--ion-space));
+  }
+}

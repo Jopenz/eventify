@@ -63,3 +63,11 @@
     background: linear-gradient(0deg, rgba(18, 18, 18, 1) 0%, rgba(18, 18, 18, 0.6) 34%, rgba(255, 255, 255, 0.3) 100%);
   }
 }
+
+@media (min-width: 640px) {
+  .event-item {
+    height: 40vh;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

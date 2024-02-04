@@ -153,10 +153,10 @@
         "isFeatured": true,
         "category": "Cine",
         "organizer": {
-            "id": 5,
-            "name": "David Wilson",
-            "email": "david.wilson@test.org",
-            "avatar": "https://i.pravatar.cc/150?img=5"
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@gmail.com",
+            "avatar": "https://i.pravatar.cc/150?img=1"
         },
         "price": 20,
         "confirmed": [],
@@ -203,10 +203,10 @@
         "isFeatured": false,
         "category": "Entretenimiento",
         "organizer": {
-            "id": 7,
-            "name": "Christopher Lee",
-            "email": "christopher.lee@test.net",
-            "avatar": "https://i.pravatar.cc/150?img=7"
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@gmail.com",
+            "avatar": "https://i.pravatar.cc/150?img=1"
         },
         "price": 0,
         "confirmed": [],
