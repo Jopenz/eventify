@@ -7,10 +7,6 @@
         "description": "El próximo 10 de febrero a las 6:00 p.m., el vibrante escenario del Parque Central se convertirá en el epicentro de una experiencia musical sin igual con el evento \"Concierto en el Parque\". Esta velada promete sumergir a los asistentes en un torrente de melodías cautivadoras y ritmos envolventes que resonarán entre los árboles y la naturaleza circundante.\nDesde los acordes más nostálgicos hasta las vibraciones más contemporáneas, este concierto ofrece un espectro musical diverso que deleitará a personas de todas las edades y gustos.\n\nBajo el cielo estrellado, los presentes tendrán la oportunidad de entregarse por completo a la magia de la música en vivo, una experiencia que promete trascender las barreras del tiempo y el espacio. Acompañados por talentosos artistas locales, los espectadores serán transportados a un mundo de emociones y sensaciones donde cada nota es un hilo que teje historias y despierta emociones profundas en el alma de quienes escuchan.\n\nCon un ambiente festivo y una energía contagiosa, \"Concierto en el Parque\" se erige como un oasis cultural en medio del bullicio urbano, donde la comunión entre la audiencia y los intérpretes crea un vínculo único e irrepetible. Esta experiencia, marcada por la pasión y el talento, quedará grabada en la memoria colectiva como un momento de celebración de la música y la vida. ¡Únete a nosotros y sé parte de esta noche inolvidable!",
         "image": "https://picsum.photos/id/167/400/600",
         "isFeatured": true,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/concierto",
         "category": "Música",
         "organizer": {
             "id": 1,
@@ -19,7 +15,6 @@
             "avatar": "https://i.pravatar.cc/150?img=1"
         },
         "price": 0,
-        "capacity": 200,
         "confirmed": [
             {
                 "id": 1,
@@ -42,7 +37,11 @@
         ],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 2,
@@ -52,10 +51,6 @@
         "description": "Descubre una gran selección de libros de diferentes géneros.",
         "image": "https://media.traveler.es/photos/628e6619f179f3649488a0e0/16:9/w_1920,c_limit/Feria.jpg",
         "isFeatured": true,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/feria-libros",
         "category": "Cultura",
         "organizer": {
             "id": 2,
@@ -64,11 +59,14 @@
             "avatar": "https://i.pravatar.cc/150?img=2"
         },
         "price": 0,
-        "capacity": 300,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 3,
@@ -78,10 +76,6 @@
         "description": "Aprende a preparar auténticos platos italianos.",
         "image": "https://turismosanfernando.es/wp-content/uploads/2023/12/tallercocina.png",
         "isFeatured": false,
-        "isFree": false,
-        "isPaid": true,
-        "isOnline": false,
-        "link": "https://example.com/taller-cocina-italiana",
         "category": "Cocina",
         "organizer": {
             "id": 3,
@@ -90,11 +84,14 @@
             "avatar": "https://i.pravatar.cc/150?img=3"
         },
         "price": 50,
-        "capacity": 20,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 4,
@@ -104,10 +101,6 @@
         "description": "Descubre las obras más recientes de artistas emergentes.",
         "image": "https://www.santander.es/sites/default/files/mas_web.jpg",
         "isFeatured": true,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/exposicion-arte-moderno",
         "category": "Arte",
         "organizer": {
             "id": 8,
@@ -116,11 +109,14 @@
             "avatar": "https://i.pravatar.cc/150?img=8"
         },
         "price": 0,
-        "capacity": 150,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 5,
@@ -130,10 +126,6 @@
         "description": "Explora las últimas tendencias en inteligencia artificial y su impacto en la sociedad.",
         "image": "https://cdn-3.expansion.mx/dims4/default/3cd587c/2147483647/strip/true/crop/1254x836+0+0/resize/1800x1200!/format/webp/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F17%2F13%2F57001c6240e5b670a34770b3abbc%2Finteligencia-artificial-creatividad.jpg",
         "isFeatured": true,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/conferencia-ia",
         "category": "Tecnología",
         "organizer": {
             "id": 4,
@@ -142,11 +134,14 @@
             "avatar": "https://i.pravatar.cc/150?img=4"
         },
         "price": 0,
-        "capacity": 500,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 6,
@@ -156,10 +151,6 @@
         "description": "Disfruta de una selección única de películas independientes de todo el mundo.",
         "image": "https://fotos.perfil.com/2022/04/19/bafici-1343399.jpg",
         "isFeatured": true,
-        "isFree": false,
-        "isPaid": true,
-        "isOnline": false,
-        "link": "https://example.com/festival-cine-independiente",
         "category": "Cine",
         "organizer": {
             "id": 5,
@@ -168,11 +159,14 @@
             "avatar": "https://i.pravatar.cc/150?img=5"
         },
         "price": 20,
-        "capacity": 250,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 7,
@@ -182,10 +176,6 @@
         "description": "Prueba una variedad de cervezas artesanales locales y disfruta de música en vivo.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hacker-Pschorr_Oktoberfest_Girl_Remix.jpg/1024px-Hacker-Pschorr_Oktoberfest_Girl_Remix.jpg",
         "isFeatured": true,
-        "isFree": false,
-        "isPaid": true,
-        "isOnline": false,
-        "link": "https://example.com/fiesta-cerveza-artesanal",
         "category": "Gastronomía",
         "organizer": {
             "id": 6,
@@ -194,11 +184,14 @@
             "avatar": "https://i.pravatar.cc/150?img=6"
         },
         "price": 15,
-        "capacity": 300,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 8,
@@ -208,10 +201,6 @@
         "description": "Participa en una emocionante jornada de juegos de mesa con premios y diversión garantizada.",
         "image": "https://i.ytimg.com/vi/om8BB32uvxc/maxresdefault.jpg",
         "isFeatured": false,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/maraton-juegos-mesa",
         "category": "Entretenimiento",
         "organizer": {
             "id": 7,
@@ -220,11 +209,14 @@
             "avatar": "https://i.pravatar.cc/150?img=7"
         },
         "price": 0,
-        "capacity": 150,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 9,
@@ -234,10 +226,6 @@
         "description": "Explora las últimas innovaciones tecnológicas que están dando forma al futuro.",
         "image": "https://media-edg.barcelona.cat/wp-content/uploads/2022/01/19140718/mobile-world-congress-estands-760x428.jpg",
         "isFeatured": true,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/exposicion-tecnologia-futurista",
         "category": "Tecnología",
         "organizer": {
             "id": 8,
@@ -246,11 +234,14 @@
             "avatar": "https://i.pravatar.cc/150?img=8"
         },
         "price": 0,
-        "capacity": 200,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 10,
@@ -260,10 +251,6 @@
         "description": "Disfruta de una noche de jazz bajo las estrellas con talentosos músicos locales.",
         "image": "https://www.valenciaextra.com/uploads/s1/16/34/82/91/0714-jazz-als-barris-i-pobles-valencia-2-foto-live-music-valencia.jpeg",
         "isFeatured": true,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/concierto-jazz",
         "category": "Música",
         "organizer": {
             "id": 9,
@@ -276,7 +263,11 @@
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 11,
@@ -286,10 +277,6 @@
         "description": "Prueba una variedad de deliciosos platos de comida callejera de todo el mundo.",
         "image": "https://spanish.xinhuanet.com/photo/2020-01/20/138717737_15794376640081n.jpg",
         "isFeatured": true,
-        "isFree": false,
-        "isPaid": true,
-        "isOnline": false,
-        "link": "https://example.com/festival-comida-callejera",
         "category": "Gastronomía",
         "organizer": {
             "id": 10,
@@ -298,11 +285,14 @@
             "avatar": "https://i.pravatar.cc/150?img=10"
         },
         "price": 10,
-        "capacity": 500,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 12,
@@ -312,10 +302,6 @@
         "description": "Explora las imágenes más impactantes de la vida urbana capturadas por talentosos fotógrafos.",
         "image": "https://live.staticflickr.com/762/21004914360_071f6c0c46_b.jpg",
         "isFeatured": true,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/exposicion-fotografia-urbana",
         "category": "Arte",
         "organizer": {
             "id": 11,
@@ -324,11 +310,14 @@
             "avatar": "https://i.pravatar.cc/150?img=11"
         },
         "price": 0,
-        "capacity": 200,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 13,
@@ -338,10 +327,6 @@
         "description": "Aprende las mejores prácticas y consejos para iniciar tu propio negocio.",
         "image": "https://www.que.es/wp-content/uploads/2020/12/seminario.jpg",
         "isFeatured": false,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/seminario-emprendimiento",
         "category": "Negocios",
         "organizer": {
             "id": 12,
@@ -350,11 +335,14 @@
             "avatar": "https://i.pravatar.cc/150?img=12"
         },
         "price": 0,
-        "capacity": 150,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 14,
@@ -364,10 +352,6 @@
         "description": "Disfruta de una velada elegante con las obras maestras de la música clásica interpretadas por una orquesta sinfónica.",
         "image": "https://elcorreoweb.es/binrepository/640x490/-35c80/675d400/none/10703/GGBN/la-comunidad-valenciana-la-que-mas-conciertos-de-musica-clasica-ofrece_20742876_20211130090808.jpg",
         "isFeatured": true,
-        "isFree": false,
-        "isPaid": true,
-        "isOnline": false,
-        "link": "https://example.com/concierto-musica-clasica",
         "category": "Música",
         "organizer": {
             "id": 13,
@@ -376,11 +360,14 @@
             "avatar": "https://i.pravatar.cc/150?img=13"
         },
         "price": 30,
-        "capacity": 400,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 15,
@@ -390,10 +377,6 @@
         "description": "Descubre las últimas innovaciones en tecnología de la mano de las principales empresas del sector.",
         "image": "https://www.iguanarobot.com/wp-content/uploads/2023/03/web_6365114002386_big_tp_VL421000_MG19773231.jpg",
         "isFeatured": true,
-        "isFree": true,
-        "isPaid": false,
-        "isOnline": false,
-        "link": "https://example.com/feria-tecnologia",
         "category": "Tecnología",
         "organizer": {
             "id": 15,
@@ -402,7 +385,6 @@
             "avatar": "https://i.pravatar.cc/150?img=15"
         },
         "price": 0,
-        "capacity": 5000,
         "confirmed": [
             {
                 "id": 1,
@@ -419,7 +401,11 @@
         ],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
-        "updatedAt": "2024-02-03T12:00:00Z"
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "coordinate": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     },
     {
         "id": 16,
@@ -429,10 +415,6 @@
         "description": "Únete al torneo anual de tenis local y compite contra jugadores de tu comunidad.",
         "image": "https://www.usta.com/es/home/improve/tips-and-instruction/national/tennis-scoring-rules/_jcr_content/root/content/image.coreimg.90.1280.jpeg/1601570980292/overview.jpeg",
         "isFeatured": false,
-        "isFree": false,
-        "isPaid": true,
-        "isOnline": false,
-        "link": "https://example.com/torneo-tenis-local",
         "category": "Deportes",
         "organizer": {
             "id": 16,
@@ -441,7 +423,6 @@
             "avatar": "https://i.pravatar.cc/150?img=16"
         },
         "price": 25,
-        "capacity": 100,
         "confirmed": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",

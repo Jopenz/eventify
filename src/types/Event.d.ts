@@ -8,16 +8,15 @@ export default interface Event {
   description: string;
   image: string;
   isFeatured: boolean;
-  isFree: boolean;
-  isPaid: boolean;
-  isOnline: boolean;
-  link: string;
   category: string;
   organizer: Person;
   price: number;
-  capacity: number;
   confirmed: Person[];
   status: string;
   createdAt: string;
   updatedAt: string;
+  coordinate: {
+    latitude: number;
+    longitude: number;
+  };
 }

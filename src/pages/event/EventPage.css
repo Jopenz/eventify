@@ -24,6 +24,7 @@
 .event-page .header-event .in-toolbar {
   background: transparent;
   box-shadow: none;
+  --border-width: 0 !important;
 }
 
 .event-info {
