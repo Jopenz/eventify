@@ -1,0 +1,40 @@
+.text-title {
+  position: relative;
+  font-weight: 700 !important;
+  overflow-wrap: break-word;
+  color: var(--ion-text-color);
+  margin: 0.3rem 0;
+}
+.text-title.lg {
+  font-size: 2.3rem;
+}
+.text-title.md {
+  font-size: 2rem;
+}
+.text-title.sm {
+  font-size: 1.5rem;
+}
+.text-title.xs {
+  font-size: 1.2rem;
+}
+
+.text-caption {
+  font-weight: 400 !important;
+  line-height: 1.2rem;
+  color: rgba(var(--ion-text-color-rgb), 0.6);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.text-caption.lg {
+  font-size: 1.2rem;
+}
+.text-caption.md {
+  font-size: 1rem;
+}
+.text-caption.sm {
+  font-size: 0.8rem;
+}
+.text-caption.xs {
+  font-size: 0.6rem;
+}

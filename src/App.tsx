@@ -1,20 +1,13 @@
 import { Redirect, Route } from 'react-router-dom';
-import {
-  IonApp,
-  IonIcon,
-  IonLabel,
-  IonRouterOutlet,
-  IonTabBar,
-  IonTabButton,
-  IonTabs,
-  setupIonicReact
-} from '@ionic/react';
+import { IonApp, IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle } from 'ionicons/icons';
-import Tab1 from './pages/Tab1';
-import Tab2 from './pages/Tab2';
-import Tab3 from './pages/Tab3';
+import { calendarOutline, search, personOutline, sparklesOutline } from 'ionicons/icons';
+import '@fontsource-variable/onest';
 
+import Today from './components/shared/today/Today';
+import TodayPage from './pages/today/TodayPage';
+import EventsPage from './pages/events/EventsPage';
+import EventPage from './pages/event/EventPage';
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -33,6 +26,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import './theme/commons.css';
 
 setupIonicReact();
 
@@ -41,31 +35,43 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/tab1">
-            <Tab1 />
+          <Route exact path='/today'>
+            <TodayPage />
           </Route>
-          <Route exact path="/tab2">
-            <Tab2 />
+          <Route exact path='/events'>
+            <EventsPage />
           </Route>
-          <Route path="/tab3">
-            <Tab3 />
+          <Route path='/events/:id' render={(match) => <EventPage {...match} />} />
+          <Route exact path='/calendar'>
+            <EventsPage />
           </Route>
-          <Route exact path="/">
-            <Redirect to="/tab1" />
+          <Route path='/search'></Route>
+          <Route path='/account'></Route>
+
+          <Route exact path='/'>
+            <Redirect to='/today' />
           </Route>
         </IonRouterOutlet>
-        <IonTabBar slot="bottom">
-          <IonTabButton tab="tab1" href="/tab1">
-            <IonIcon aria-hidden="true" icon={triangle} />
-            <IonLabel>Tab 1</IonLabel>
+        <IonTabBar slot='bottom'>
+          <IonTabButton tab='today' href='/today'>
+            <Today day={1} />
+            <IonLabel>Today</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon aria-hidden="true" icon={ellipse} />
-            <IonLabel>Tab 2</IonLabel>
+          <IonTabButton tab='events' href='/events'>
+            <IonIcon aria-hidden='true' icon={sparklesOutline} />
+            <IonLabel>Events</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon aria-hidden="true" icon={square} />
-            <IonLabel>Tab 3</IonLabel>
+          <IonTabButton tab='calendar' href='/calendar'>
+            <IonIcon aria-hidden='true' icon={calendarOutline} />
+            <IonLabel>Calendar</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab='search' href='/search'>
+            <IonIcon aria-hidden='true' icon={search} />
+            <IonLabel>Search</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab='account' href='/account'>
+            <IonIcon aria-hidden='true' icon={personOutline} />
+            <IonLabel>My Account</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

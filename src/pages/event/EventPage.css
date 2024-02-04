@@ -1,0 +1,64 @@
+.event-page .event-container .event-image {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  height: 40vh;
+}
+.event-page .event-image {
+  border-radius: 0;
+  top: 0;
+  z-index: 9;
+}
+.event-page .event-image::after {
+  border-radius: 0;
+  top: 0;
+  height: 101%;
+}
+
+.event-page .header-event {
+  padding-left: var(--ion-space);
+  padding-right: var(--ion-space);
+}
+.event-page .header-event,
+.event-page .header-event .in-toolbar {
+  background: transparent;
+  box-shadow: none;
+}
+
+.event-info {
+  position: relative;
+  z-index: 99;
+  margin-top: 33vh;
+}
+
+.event-info .event-title-info {
+  padding-top: calc(2 * var(--ion-space));
+  padding-bottom: var(--ion-space);
+  display: flex;
+  flex-direction: column;
+}
+
+.event-info .ion-avatar {
+  margin-right: var(--ion-space);
+}
+
+.event-info .description {
+  padding-top: var(--ion-space);
+  padding-bottom: var(--ion-space);
+}
+.event-info .description .text {
+  white-space: break-spaces;
+}
+
+@media (prefers-color-scheme: light) {
+  .event-page .event-image::after {
+    background: linear-gradient(
+      0deg,
+      rgba(var(--ion-background-color-rgb), 1) 5%,
+      rgba(255, 255, 255, 0.3) 35%,
+      rgba(255, 255, 255, 0.3) 85%,
+      rgba(var(--ion-background-color-rgb), 0.6) 100%
+    );
+  }
+}

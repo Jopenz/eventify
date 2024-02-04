@@ -1,0 +1,20 @@
+.people {
+  position: relative;
+}
+
+.people-items {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.people-items .ion-avatar:last-of-type {
+  right: -50%;
+  position: absolute;
+}
+
+.people-count {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}

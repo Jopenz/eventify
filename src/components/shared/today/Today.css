@@ -1,0 +1,13 @@
+.today {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.icon-day {
+  position: absolute;
+  top: calc(50% - 0.2rem);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  font-weight: 600;
+}
