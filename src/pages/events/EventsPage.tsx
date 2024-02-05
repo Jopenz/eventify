@@ -6,18 +6,27 @@ import useEvents from '../../hooks/useEvents';
 import { Title } from '../../components/shared/text/Text';
 import Header from '../../components/header/Header';
 import ExploreContainer from '../../components/ExploreContainer';
+import { useState } from 'react';
 
 const EventsPage: React.FC = () => {
-  const { events } = useEvents();
+  const { events, search, setSearch } = useEvents();
+
+  const handleSearch = (e: CustomEvent) => {
+    setSearch(e.detail.value);
+  };
+
+  const handleClear = () => {
+    setSearch('');
+  };
 
   return (
     <IonPage>
       <IonHeader className='ion-no-border' mode='ios'>
         <IonToolbar>
-          <IonTitle>Eventify</IonTitle>
+          <IonTitle color='primary'>Eventify</IonTitle>
         </IonToolbar>
         <IonToolbar>
-          <IonSearchbar></IonSearchbar>
+          <IonSearchbar onIonChange={handleSearch} onIonClear={handleClear} placeholder='Search for events' />
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen className='ion-padding'>

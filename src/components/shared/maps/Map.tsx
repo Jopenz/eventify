@@ -1,5 +1,5 @@
 import { GoogleMap } from '@capacitor/google-maps';
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './Maps.css';
 
 interface MapProps {
@@ -62,4 +62,4 @@ const Map: React.FC = () => {
   );
 };
 
-export default Map;
+export default React.memo(Map);

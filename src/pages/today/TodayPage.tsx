@@ -17,7 +17,7 @@ const TodayPage: React.FC = () => {
     <IonPage>
       <IonHeader className='ion-no-border' mode='ios'>
         <IonToolbar>
-          <IonTitle>Eventify</IonTitle>
+          <IonTitle color='primary'>Eventify</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>

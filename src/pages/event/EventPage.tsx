@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, createRef, useEffect, useState } from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonText, IonImg, IonList, IonItem, IonButtons, IonBackButton } from '@ionic/react';
 
 import './EventPage.css';
@@ -18,6 +18,8 @@ interface EventProps
 
 const EventPage: FC<EventProps> = ({ match }) => {
   const { id } = match.params;
+  const [scroll, setScroll] = useState(0);
+  const contentRef = createRef<HTMLIonContentElement>();
 
   const { getEvent, loading } = useEvents();
   const { user } = useUser();
@@ -39,7 +41,7 @@ const EventPage: FC<EventProps> = ({ match }) => {
           <IonTitle>Eventify</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent fullscreen ref={contentRef}>
         <div className='event-container'>
           <IonImg className='event-image' src={event.image} />
           <div className='event-info'>

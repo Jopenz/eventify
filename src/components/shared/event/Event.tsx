@@ -25,9 +25,9 @@ const Event: FC<EventProps> = (event) => {
             <Date day={parseDate.format('DD')} month={parseDate.format('MMM')} />
           </div>
           <div className='event-title'>
-            <Caption size='sm'>{parseDate.format('dddd MMMM DD')}</Caption>
+            <Caption color='light'>{parseDate.format('dddd MMMM DD')}</Caption>
             <Title size='lg'>{title}</Title>
-            <Caption size='sm'>{category}</Caption>
+            <Caption color='primary'>{category}</Caption>
           </div>
         </div>
       </IonCardContent>
