@@ -13,7 +13,7 @@ export interface TitleProps extends Text {}
 
 export interface CaptionProps extends Text {}
 
-export const Title: FC<TitleProps> = ({ children, className, color = 'inherit', size = 'md' }) => {
+export const Title: FC<TitleProps> = ({ children, className, color = 'primary', size = 'md' }) => {
   return (
     <IonText color={color} className={className}>
       <h4 className={`text-title ${size}`}>{children}</h4>

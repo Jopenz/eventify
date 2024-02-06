@@ -3,7 +3,7 @@ import { Person } from './Person';
 export default interface Event {
   id: number;
   title: string;
-  date: string;
+  date: date;
   location: string;
   description: string;
   image: string;
@@ -13,8 +13,8 @@ export default interface Event {
   price: number;
   confirmed: Person[];
   status: string;
-  createdAt: string;
-  updatedAt: string;
+  createdAt: date;
+  updatedAt: date;
   coordinate: {
     latitude: number;
     longitude: number;

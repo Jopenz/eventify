@@ -4,8 +4,7 @@ import './Event.css';
 import Date from '../date/Date';
 import { formatDate } from '../../../commons/Helpers';
 import { Title, Caption } from '../text/Text';
-import { IonCard, IonCardContent, IonItem } from '@ionic/react';
-import Avatar from '../avatar/Avatar';
+import { IonCard, IonCardContent } from '@ionic/react';
 import People from '../people/People';
 
 export interface EventProps extends EventType {}
@@ -26,8 +25,10 @@ const Event: FC<EventProps> = (event) => {
           </div>
           <div className='event-title'>
             <Caption color='light'>{parseDate.format('dddd MMMM DD')}</Caption>
-            <Title size='lg'>{title}</Title>
-            <Caption color='primary'>{category}</Caption>
+            <Title color='light' size='lg'>
+              {title}
+            </Title>
+            <Caption color='light'>{category}</Caption>
           </div>
         </div>
       </IonCardContent>

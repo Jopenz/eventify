@@ -1,16 +1,39 @@
-import { IonButton, IonContent, IonFooter, IonHeader, IonIcon, IonPage, IonText, IonTitle, IonToolbar } from '@ionic/react';
-import { FC } from 'react';
-import useEvents from '../../hooks/useEvents';
+import { FC, useEffect } from 'react';
+import { IonButton, IonContent, IonFooter, IonHeader, IonIcon, IonPage, IonText, IonTitle, IonToolbar, useIonModal } from '@ionic/react';
 import { Title } from '../../components/shared/text/Text';
 import EventCard from './EventCard';
 import { addOutline } from 'ionicons/icons';
+import useMyEvents from '../../hooks/useMyEvents';
+import EventModal from '../../modals/event/EventModal';
+import { OverlayEventDetail } from '@ionic/react/dist/types/components/react-component-lib/interfaces';
 
 interface MyEventsPageProps {}
 
 const MyEventsPage: FC<MyEventsPageProps> = () => {
-  const { getMyEvents } = useEvents();
+  const [present, dismiss] = useIonModal(EventModal, {
+    onDismiss: (data: string, role: string) => dismiss(data, role),
+  });
 
-  const events = getMyEvents();
+  const { events, selected, addEvent, editEvent, setOpen } = useMyEvents();
+
+  function openModal() {
+    present({
+      onDidDismiss: (ev: CustomEvent<OverlayEventDetail>) => {
+        setOpen(0);
+      },
+      onWillDismiss: (ev: CustomEvent<OverlayEventDetail>) => {
+        if (ev.detail.role === 'confirm') {
+          setOpen(0);
+          addEvent(ev.detail.data);
+        }
+      },
+    });
+  }
+
+  useEffect(() => {
+    if (!selected) return;
+    openModal();
+  }, [selected]);
 
   return (
     <IonPage>
@@ -31,7 +54,13 @@ const MyEventsPage: FC<MyEventsPageProps> = () => {
       </IonContent>
       <IonFooter>
         <IonToolbar>
-          <IonButton expand='block' href={'/myevents/new'}>
+          <IonButton
+            expand='block'
+            onClick={() => {
+              setOpen(0);
+              openModal();
+            }}
+          >
             <IonIcon size='small' aria-hidden='true' icon={addOutline} />
             <IonText color='light'>Create Event</IonText>
           </IonButton>

@@ -1,15 +1,14 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonText } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { Caption, Title } from '../../components/shared/text/Text';
 import Event from '../../components/shared/event/Event';
-
-import useEvents from '../../hooks/useEvents';
 import Empty from '../../components/empty/Empty';
 import dayjs from 'dayjs';
-import { Caption, Title } from '../../components/shared/text/Text';
+
+import useToday from '../../hooks/useToday';
 import './TodayPage.css';
-import Header from '../../components/header/Header';
 
 const TodayPage: React.FC = () => {
-  const { todayEvents } = useEvents();
+  const { events } = useToday();
 
   const date = dayjs().format('dddd.MMMM.DD');
 
@@ -28,14 +27,14 @@ const TodayPage: React.FC = () => {
             </Caption>
           </IonToolbar>
           <IonToolbar>
-            <Title color='tertiary' size='lg'>
+            <Title color='primary' size='lg'>
               Today
             </Title>
           </IonToolbar>
         </IonHeader>
         <div className='container today'>
-          {Array.isArray(todayEvents) && todayEvents.length > 0 ? (
-            todayEvents.map((event) => <Event key={event.id} {...event} />)
+          {Array.isArray(events) && events.length > 0 ? (
+            events.map((event) => <Event key={event.id} {...event} />)
           ) : (
             <Empty
               title='Although there are no events today.'

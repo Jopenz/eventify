@@ -4,7 +4,7 @@ http://ionicframework.com/docs/theming/ */
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: rgb(37, 188, 145);
+  --ion-color-primary: #00b17f;
   --ion-color-primary-rgb: 37, 188, 145;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -12,12 +12,12 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-primary-tint: #2ecfa2;
 
   /** secondary **/
-  --ion-color-secondary: #3dc2ff;
+  --ion-color-secondary: #9194f3;
   --ion-color-secondary-rgb: 61, 194, 255;
   --ion-color-secondary-contrast: #ffffff;
   --ion-color-secondary-contrast-rgb: 255, 255, 255;
-  --ion-color-secondary-shade: #36abe0;
-  --ion-color-secondary-tint: #50c8ff;
+  --ion-color-secondary-shade: #42446c;
+  --ion-color-secondary-tint: #63659d;
 
   /** tertiary **/
   --ion-color-tertiary: 'transparent';
@@ -38,7 +38,7 @@ http://ionicframework.com/docs/theming/ */
   /** warning **/
   --ion-color-warning: #ffc409;
   --ion-color-warning-rgb: 255, 196, 9;
-  --ion-color-warning-contrast: #000000;
+  --ion-color-warning-contrast: #1e2023;
   --ion-color-warning-contrast-rgb: 0, 0, 0;
   --ion-color-warning-shade: #e0ac08;
   --ion-color-warning-tint: #ffca22;
@@ -79,26 +79,30 @@ http://ionicframework.com/docs/theming/ */
 
   /** Custom CSS Variables **/
   --ion-space: 1rem;
+  --ion-padding: 1rem;
+
   --text-color: #2a2a2a;
+
   --border-radius: 1rem;
-  --background: #121212;
-  --button-background: #2a2a2a;
+
+  --ion-text-color: #2a2a2a;
+
+  --background: #f5f5f5;
+  --ion-background-color: rgb(245, 245, 245);
+  --ion-background-color-rgb: 245, 245, 245;
+  --ion-card-background: #ffffff;
 }
 
-.ios body {
-  --background: #121212;
-  --ion-background-color: rgb(18, 18, 18);
-  --ion-background-color-rgb: 18, 18, 18;
+/* .ios body {
+  --background: #363756;
+  --ion-background-color: #363756;
+  --ion-background-color-rgb: 54, 55, 86;
 
-  --ion-item-background: #121212;
-  --ion-card-background: #1c1c1d;
+  --ion-item-background: #363756;
+  --ion-card-background: #53548a;
   --ion-text-color: rgb(245, 244, 244);
   --ion-text-color-rgb: 245, 244, 244;
-
-  --ion-item-background: #121212;
-
-  --ion-card-background: #1c1c1d;
-}
+} */
 
 ion-toolbar,
 ion-tab-bar {

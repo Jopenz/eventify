@@ -46,8 +46,6 @@ const App: React.FC = () => (
             <MyEventsPage />
           </Route>
           <Route path='/events/:id' render={(match) => <EventPage {...match} />} />
-          <Route path='/myevents/:id' render={(match) => <FormPage {...match} />} />
-          <Route path='/myevents/new' render={(match) => <FormPage {...match} />} />
           <Route exact path='/'>
             <Redirect to='/events' />
           </Route>

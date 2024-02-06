@@ -4,11 +4,12 @@ import { IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, Ion
 import { formatDate } from '../../commons/Helpers';
 import './EventCard.css';
 import useEvents from '../../hooks/useEvents';
+import useMyEvents from '../../hooks/useMyEvents';
 
 interface EventCardProps extends Event {}
 
 const EventCard: FC<EventCardProps> = ({ image, title, date, description, id }) => {
-  const { removeEvent } = useEvents();
+  const { removeEvent, setOpen } = useMyEvents();
   const [presentingElement, setPresentingElement] = useState<HTMLElement | null>(null);
   const card = useRef(null);
 
@@ -37,6 +38,10 @@ const EventCard: FC<EventCardProps> = ({ image, title, date, description, id }) 
     );
   };
 
+  const handleOpen = () => {
+    setOpen(id);
+  };
+
   return (
     <IonCard className='event-card' ref={card}>
       <img className='card-image' alt='Silhouette of mountains' src={image} />
@@ -47,7 +52,7 @@ const EventCard: FC<EventCardProps> = ({ image, title, date, description, id }) 
 
       <IonCardContent>{description.slice(0, 100)}...</IonCardContent>
 
-      <IonButton href={`/myevents/${id}`} color='light' fill='clear'>
+      <IonButton onClick={handleOpen} color='light' fill='clear'>
         Edit
       </IonButton>
       <IonButton onClick={handleDelete} color='danger' fill='clear'>
