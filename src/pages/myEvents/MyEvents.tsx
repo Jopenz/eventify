@@ -24,7 +24,11 @@ const MyEventsPage: FC<MyEventsPageProps> = () => {
       onWillDismiss: (ev: CustomEvent<OverlayEventDetail>) => {
         if (ev.detail.role === 'confirm') {
           setOpen(0);
-          addEvent(ev.detail.data);
+          if (ev.detail.data.id) {
+            editEvent(ev.detail.data);
+          } else {
+            addEvent(ev.detail.data);
+          }
         }
       },
     });

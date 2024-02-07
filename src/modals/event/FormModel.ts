@@ -1,9 +1,9 @@
 import * as yup from 'yup';
 
-const schema = yup.object({
+const schema = yup.object().shape({
   id: yup.number().required(),
   title: yup.string().required(),
-  date: yup.string().required(),
+  date: yup.date().min(new Date(), 'Date must be in the future').required('Date is required').nullable().default(undefined),
   location: yup.string().required(),
   description: yup.string().required(),
   image: yup.string().required(),
@@ -18,7 +18,7 @@ const schema = yup.object({
       avatar: yup.string().required(),
     })
     .required(),
-  price: yup.number().positive().required(),
+  price: yup.number().notRequired(),
   confirmed: yup
     .array()
     .of(
@@ -40,7 +40,14 @@ const schema = yup.object({
       longitude: yup.number().required(),
     })
     .required(),
-  file: yup.array().required(),
+  file: yup.mixed().test('file', 'Image is required', (value, context) => {
+    if (context.parent.id === 0) {
+      context.createError({ path: 'file', message: 'Image is required' });
+      return false;
+    } else {
+      return true;
+    }
+  }),
 });
 
 export default schema;

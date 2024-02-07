@@ -27,7 +27,6 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import './theme/commons.css';
 import MyEventsPage from './pages/myEvents/MyEvents';
-import FormPage from './pages/form/FormPage';
 
 setupIonicReact();
 
