@@ -27,6 +27,7 @@ import { EventForm, EventModalProps } from './Form';
 import schema from './FormModel';
 import useMyEvents from '../../hooks/useMyEvents';
 import Autocomplete from '../../components/shared/maps/Autocomplete';
+import useUser from '../../hooks/useUser';
 
 const defaultValues: EventForm = {
   id: 0,
@@ -40,9 +41,9 @@ const defaultValues: EventForm = {
   organizer: undefined,
   price: 50,
   confirmed: [],
-  status: '',
-  createdAt: '',
-  updatedAt: '',
+  status: 'active',
+  createdAt: new Date(),
+  updatedAt: new Date(),
   coordinate: {
     latitude: 0,
     longitude: 0,
@@ -58,6 +59,9 @@ const EventModal: FC<EventModalProps> = ({ onDismiss }) => {
 
   const { errors } = formState;
   const { selected } = useMyEvents();
+  const { user } = useUser();
+
+  console.log('errors', errors);
 
   const file = watch('file');
   const avatar = watch('image');
@@ -88,9 +92,9 @@ const EventModal: FC<EventModalProps> = ({ onDismiss }) => {
     if (selected) {
       reset(selected);
     } else {
-      reset(defaultValues);
+      reset({ ...defaultValues, organizer: user });
     }
-  }, [selected]);
+  }, [selected, user]);
 
   return (
     <form className='w-full h-full' onSubmit={handleSubmit(onSubmit)}>
@@ -116,9 +120,9 @@ const EventModal: FC<EventModalProps> = ({ onDismiss }) => {
             <IonItem lines='none'>
               <IonInput
                 {...register('title')}
-                labelPlacement='stacked'
+                labelPlacement='floating'
                 type='text'
-                fill='solid'
+                fill='outline'
                 placeholder='Event title'
                 className={errors.title ? 'ion-invalid ion-touched' : ''}
                 errorText={errors.title?.message?.toString() || ''}
@@ -127,6 +131,58 @@ const EventModal: FC<EventModalProps> = ({ onDismiss }) => {
                   Title <IonText color='danger'>*</IonText>
                 </div>
               </IonInput>
+            </IonItem>
+            <br />
+            <IonItem lines='none'>
+              <IonInput
+                {...register('category')}
+                type='text'
+                labelPlacement='stacked'
+                fill='solid'
+                placeholder='Music'
+                className={errors.category ? 'ion-invalid ion-touched' : ''}
+                errorText={errors.category?.message?.toString()}
+              >
+                <div slot='label'>
+                  Category <IonText color='danger'>*</IonText>
+                </div>
+              </IonInput>
+            </IonItem>
+            <br />
+            <IonItem lines='none'>
+              <IonInput
+                {...register('location')}
+                type='text'
+                labelPlacement='stacked'
+                fill='solid'
+                placeholder={"Plaça de Catalunya, L'Eixample, 08002 Barcelona"}
+                className={errors.location ? 'ion-invalid ion-touched' : ''}
+                errorText={errors.location?.message?.toString()}
+              >
+                <div slot='label'>
+                  Location <IonText color='danger'>*</IonText>
+                </div>
+              </IonInput>
+            </IonItem>
+            <br />
+            <IonItem lines='none'>
+              <IonInput {...register('price')} type='number' class='custom' labelPlacement='stacked' fill='solid' placeholder='Enter text'>
+                <div slot='label'>Price</div>
+              </IonInput>
+            </IonItem>
+            <br />
+            <IonItem lines='none'>
+              <IonText color='danger'>
+                <sub>{errors.file?.message?.toString()}</sub>
+              </IonText>
+              <IonThumbnail slot='start'>
+                <img alt='Silhouette of mountains' src={avatar || undefined} />
+              </IonThumbnail>
+              <input id='uploader' {...register('file')} type='file' accept='image/*' hidden />
+              <IonButton slot='end' size='default' onClick={fileOpenDialog}>
+                <IonIcon icon={imageOutline} slot='start'></IonIcon>
+                Upload
+              </IonButton>
             </IonItem>
             <br />
             <IonItem lines='none'>
@@ -160,36 +216,6 @@ const EventModal: FC<EventModalProps> = ({ onDismiss }) => {
             </IonItem>
             <br />
             <IonItem lines='none'>
-              <IonInput
-                {...register('location')}
-                type='text'
-                labelPlacement='stacked'
-                fill='solid'
-                placeholder={"Plaça de Catalunya, L'Eixample, 08002 Barcelona"}
-                className={errors.location ? 'ion-invalid ion-touched' : ''}
-                errorText={errors.location?.message?.toString()}
-              >
-                <div slot='label'>
-                  Location <IonText color='danger'>*</IonText>
-                </div>
-              </IonInput>
-            </IonItem>
-            <br />
-            <IonItem lines='none'>
-              <IonText color='danger'>
-                <sub>{errors.file?.message?.toString()}</sub>
-              </IonText>
-              <IonThumbnail slot='start'>
-                <img alt='Silhouette of mountains' src={avatar || undefined} />
-              </IonThumbnail>
-              <input id='uploader' {...register('file')} type='file' accept='image/*' hidden />
-              <IonButton slot='end' size='default' onClick={fileOpenDialog}>
-                <IonIcon icon={imageOutline} slot='start'></IonIcon>
-                Upload
-              </IonButton>
-            </IonItem>
-            <br />
-            <IonItem lines='none'>
               <Controller
                 render={({ field }) => (
                   <IonToggle {...field} checked={field.value} value={field.value.toString()}>
@@ -201,41 +227,10 @@ const EventModal: FC<EventModalProps> = ({ onDismiss }) => {
               />
             </IonItem>
             <br />
-            <IonItem lines='none'>
-              <IonInput
-                {...register('category')}
-                type='text'
-                labelPlacement='stacked'
-                fill='solid'
-                placeholder='Music'
-                className={errors.category ? 'ion-invalid ion-touched' : ''}
-                errorText={errors.category?.message?.toString()}
-              >
-                <div slot='label'>
-                  Category <IonText color='danger'>*</IonText>
-                </div>
-              </IonInput>
-            </IonItem>
-            <br />
-            <IonItem lines='none'>
-              <IonInput {...register('price')} type='number' class='custom' labelPlacement='stacked' fill='solid' placeholder='Enter text'>
-                <div slot='label'>Price</div>
-              </IonInput>
-            </IonItem>
-            <br />
-            <IonItem lines='none'>
-              <Autocomplete
-                onPlaceSelected={() => {
-                  console.log('place');
-                }}
-              />
-              {/* <Autocomplete
-                apiKey='AIzaSyDo0MzQpiB1N_vo5Cawwf5sBxMBvPM08bo'
-                onPlaceSelected={(place) => {
-                  console.log(place);
-                }}
-              /> */}
-            </IonItem>
+            {/* <IonItem lines='none'>
+            
+            </IonItem> */}
+
             <IonItem lines='none'>
               <IonTextarea
                 {...register('description')}

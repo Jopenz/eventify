@@ -1,5 +1,6 @@
-import { IonInput, IonList } from '@ionic/react';
-import { FC, Ref, RefAttributes, RefObject, useState } from 'react';
+import { IonInput, IonList, IonSearchbar } from '@ionic/react';
+import { use } from 'chai';
+import { FC, Ref, RefAttributes, RefObject, useEffect, useState } from 'react';
 import useGoogle from 'react-google-autocomplete/lib/usePlacesAutocompleteService';
 
 interface AutocompleteProps {
@@ -13,14 +14,24 @@ const Autocomplete: FC<AutocompleteProps> = ({ onPlaceSelected }) => {
 
   const [value, setValue] = useState('');
 
+  useEffect(() => {
+    // console.log('value', value);
+    if (value.length > 0) {
+      getPlacePredictions({ input: value });
+    }
+  }, [value]);
+
   return (
     <>
-      <IonInput
+      <IonSearchbar
         id='google-places-address'
+        autocomplete='street-address'
+        inputMode='search'
         aria-label='google places address'
+        type='text'
+        onChange={(e) => {}}
         onIonChange={(e) => {
-          setValue(e.detail.value!);
-          getPlacePredictions({ input: e.detail.value! });
+          console.log('e.detail.value', e.detail.value!);
         }}
       />
       <div

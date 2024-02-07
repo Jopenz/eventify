@@ -1,11 +1,11 @@
 import { FC, useEffect } from 'react';
-import { IonButton, IonContent, IonFooter, IonHeader, IonIcon, IonPage, IonText, IonTitle, IonToolbar, useIonModal } from '@ionic/react';
+import { IonButton, IonContent, IonFooter, IonHeader, IonIcon, IonList, IonPage, IonText, IonTitle, IonToolbar, useIonModal } from '@ionic/react';
 import { Title } from '../../components/shared/text/Text';
-import EventCard from './EventCard';
 import { addOutline } from 'ionicons/icons';
 import useMyEvents from '../../hooks/useMyEvents';
 import EventModal from '../../modals/event/EventModal';
 import { OverlayEventDetail } from '@ionic/react/dist/types/components/react-component-lib/interfaces';
+import EventItem from './EventItem';
 
 interface MyEventsPageProps {}
 
@@ -50,10 +50,15 @@ const MyEventsPage: FC<MyEventsPageProps> = () => {
         <IonHeader className='ion-no-border' mode='ios' collapse='fade'>
           <IonToolbar>
             <Title size='lg'>My Events</Title>
+            <IonText>
+              <sub>Slide item to see options</sub>
+            </IonText>
           </IonToolbar>
         </IonHeader>
         <div className='container events'>
-          {Array.isArray(events) && events.length > 0 ? events.map((event) => <EventCard key={event.id} {...event} />) : null}
+          <IonList className='w-full ion-padding-top'>
+            {Array.isArray(events) && events.length > 0 ? events.map((event) => <EventItem key={event.id} {...event} />) : null}
+          </IonList>
         </div>
       </IonContent>
       <IonFooter>

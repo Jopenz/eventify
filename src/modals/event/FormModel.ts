@@ -41,7 +41,7 @@ const schema = yup.object().shape({
     })
     .required(),
   file: yup.mixed().test('file', 'Image is required', (value, context) => {
-    if (context.parent.id === 0) {
+    if (context.parent.id === 0 && !value) {
       context.createError({ path: 'file', message: 'Image is required' });
       return false;
     } else {
