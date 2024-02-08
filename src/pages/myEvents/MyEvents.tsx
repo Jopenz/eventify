@@ -1,43 +1,21 @@
 import { FC, useEffect } from 'react';
-import { IonButton, IonContent, IonFooter, IonHeader, IonIcon, IonList, IonPage, IonText, IonTitle, IonToolbar, useIonModal } from '@ionic/react';
+import { IonButton, IonContent, IonFooter, IonHeader, IonIcon, IonList, IonPage, IonText, IonTitle, IonToolbar, useIonModal, useIonRouter } from '@ionic/react';
 import { Title } from '../../components/shared/text/Text';
 import { addOutline } from 'ionicons/icons';
 import useMyEvents from '../../hooks/useMyEvents';
-import EventModal from '../../modals/event/EventModal';
 import { OverlayEventDetail } from '@ionic/react/dist/types/components/react-component-lib/interfaces';
 import EventItem from './EventItem';
+import { useHistory } from 'react-router';
 
 interface MyEventsPageProps {}
 
 const MyEventsPage: FC<MyEventsPageProps> = () => {
-  const [present, dismiss] = useIonModal(EventModal, {
-    onDismiss: (data: string, role: string) => dismiss(data, role),
-  });
+  const history = useHistory();
+  const { events } = useMyEvents();
 
-  const { events, selected, addEvent, editEvent, setOpen } = useMyEvents();
-
-  function openModal() {
-    present({
-      onDidDismiss: (ev: CustomEvent<OverlayEventDetail>) => {
-        setOpen(0);
-      },
-      onWillDismiss: (ev: CustomEvent<OverlayEventDetail>) => {
-        if (ev.detail.role === 'confirm') {
-          setOpen(0);
-          if (ev.detail.data.id) {
-            editEvent(ev.detail.data);
-          } else {
-            addEvent(ev.detail.data);
-          }
-        }
-      },
-    });
-  }
-
-  useEffect(() => {
-    if (!selected) return;
-    openModal();
-  }, [selected]);
+  const handleNew = () => {
+    history.push('/myevents/new');
+  };
 
   return (
     <IonPage>
@@ -63,13 +41,7 @@ const MyEventsPage: FC<MyEventsPageProps> = () => {
       </IonContent>
       <IonFooter>
         <IonToolbar>
-          <IonButton
-            expand='block'
-            onClick={() => {
-              setOpen(0);
-              openModal();
-            }}
-          >
+          <IonButton expand='block' onClick={handleNew}>
             <IonIcon size='small' aria-hidden='true' icon={addOutline} />
             <IonText color='light'>Create Event</IonText>
           </IonButton>

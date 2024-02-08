@@ -15,7 +15,7 @@ const Price: FC<PriceProps> = ({ price }) => {
   }
 
   return (
-    <IonChip>
+    <IonChip color='secondary'>
       <span className='price-currency'>$</span>
       <span className='price-amount'>{price}</span>
     </IonChip>

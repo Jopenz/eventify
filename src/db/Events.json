@@ -9,39 +9,37 @@
         "isFeatured": true,
         "category": "Música",
         "organizer": {
-            "id": 1,
+            "id": 11,
             "name": "John Doe",
             "email": "john.doe@gmail.com",
-            "avatar": "https://i.pravatar.cc/150?img=1"
+            "avatar": "https://i.pravatar.cc/150?img=11"
         },
         "price": 0,
-        "confirmed": [
+        "followers": [
             {
-                "id": 1,
+                "id": 11,
                 "name": "John Doe",
                 "email": "john.doe@gmail.com",
-                "avatar": "https://i.pravatar.cc/150?img="
+                "avatar": "https://i.pravatar.cc/150?img=11"
             },
             {
                 "id": 2,
                 "name": "Jane Smith",
                 "email": "jame.smith@gmail.com",
-                "avatar": "https://i.pravatar.cc/150?img="
+                "avatar": "https://i.pravatar.cc/150?img=2"
             },
             {
                 "id": 3,
                 "name": "Sara Johnson",
                 "email": "sara.johnson@gmail.com",
-                "avatar": "https://i.pravatar.cc/150?img="
+                "avatar": "https://i.pravatar.cc/150?img=3"
             }
         ],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 2,
@@ -59,14 +57,12 @@
             "avatar": "https://i.pravatar.cc/150?img=2"
         },
         "price": 0,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 3,
@@ -84,14 +80,12 @@
             "avatar": "https://i.pravatar.cc/150?img=3"
         },
         "price": 50,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 4,
@@ -109,14 +103,12 @@
             "avatar": "https://i.pravatar.cc/150?img=8"
         },
         "price": 0,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 5,
@@ -134,14 +126,12 @@
             "avatar": "https://i.pravatar.cc/150?img=4"
         },
         "price": 0,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 6,
@@ -153,20 +143,18 @@
         "isFeatured": true,
         "category": "Cine",
         "organizer": {
-            "id": 1,
+            "id": 11,
             "name": "John Doe",
             "email": "john.doe@gmail.com",
             "avatar": "https://i.pravatar.cc/150?img=1"
         },
         "price": 20,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 7,
@@ -184,14 +172,12 @@
             "avatar": "https://i.pravatar.cc/150?img=6"
         },
         "price": 15,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 8,
@@ -203,20 +189,18 @@
         "isFeatured": false,
         "category": "Entretenimiento",
         "organizer": {
-            "id": 1,
+            "id": 11,
             "name": "John Doe",
             "email": "john.doe@gmail.com",
             "avatar": "https://i.pravatar.cc/150?img=1"
         },
         "price": 0,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 9,
@@ -234,14 +218,12 @@
             "avatar": "https://i.pravatar.cc/150?img=8"
         },
         "price": 0,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 10,
@@ -260,14 +242,12 @@
         },
         "price": 0,
         "capacity": 300,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 11,
@@ -285,14 +265,12 @@
             "avatar": "https://i.pravatar.cc/150?img=10"
         },
         "price": 10,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 12,
@@ -310,14 +288,12 @@
             "avatar": "https://i.pravatar.cc/150?img=11"
         },
         "price": 0,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 13,
@@ -335,14 +311,12 @@
             "avatar": "https://i.pravatar.cc/150?img=12"
         },
         "price": 0,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 14,
@@ -360,14 +334,12 @@
             "avatar": "https://i.pravatar.cc/150?img=13"
         },
         "price": 30,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 15,
@@ -385,27 +357,25 @@
             "avatar": "https://i.pravatar.cc/150?img=15"
         },
         "price": 0,
-        "confirmed": [
+        "followers": [
             {
-                "id": 1,
+                "id": 11,
                 "name": "John Doe",
                 "email": "john.doe@gmail.com",
-                "avatar": "https://i.pravatar.cc/150?img="
+                "avatar": "https://i.pravatar.cc/150?img=11"
             },
             {
                 "id": 2,
                 "name": "Jane Smith",
                 "email": "Jame.Smith@gmail.com",
-                "avatar": "https://i.pravatar.cc/150?img="
+                "avatar": "https://i.pravatar.cc/150?img=2"
             }
         ],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
-        "coordinate": {
-            "latitude": 40.7128,
-            "longitude": -74.0060
-        }
+        "latitude": 40.7128,
+        "longitude": -74.0060
     },
     {
         "id": 16,
@@ -423,7 +393,7 @@
             "avatar": "https://i.pravatar.cc/150?img=16"
         },
         "price": 25,
-        "confirmed": [],
+        "followers": [],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z"

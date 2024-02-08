@@ -1,7 +1,6 @@
 import { GoogleMap } from '@capacitor/google-maps';
 import React, { useEffect, useRef } from 'react';
 import './Maps.css';
-import { environment } from '../../../environments/environment';
 
 interface MapProps {
   lat: number;
@@ -11,7 +10,7 @@ interface MapProps {
   snippet: string;
 }
 
-const Map: React.FC<MapProps> = ({ lat, lng, title, snippet }) => {
+const Map: React.FC = () => {
   const mapRef = useRef<HTMLElement>();
   const newMapRef = useRef<GoogleMap>();
 
@@ -20,22 +19,22 @@ const Map: React.FC<MapProps> = ({ lat, lng, title, snippet }) => {
       newMapRef.current = await GoogleMap.create({
         id: 'app-map',
         element: component,
-        apiKey: environment.mapsKey,
+        apiKey: 'AIzaSyDo0MzQpiB1N_vo5Cawwf5sBxMBvPM08bo',
         config: {
           disableDefaultUI: true,
           center: {
-            lat,
-            lng,
+            lat: 33.6,
+            lng: -117.9,
           },
           zoom: 14,
         },
       });
       newMapRef.current.addMarker({
-        title,
-        snippet,
+        title: 'Hello Capacitor!',
+        snippet: 'This plugin is awesome!',
         coordinate: {
-          lat,
-          lng,
+          lat: 33.6,
+          lng: -117.9,
         },
       });
     };

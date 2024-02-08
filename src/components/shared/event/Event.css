@@ -3,7 +3,7 @@
   height: 45vh;
   position: relative;
   margin-bottom: var(--ion-space);
-  border-radius: var(--border-radius);
+  border-radius: 1rem;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 2rem;

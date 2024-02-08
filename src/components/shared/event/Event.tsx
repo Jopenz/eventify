@@ -10,7 +10,7 @@ import People from '../people/People';
 export interface EventProps extends EventType {}
 
 const Event: FC<EventProps> = (event) => {
-  const { id, date, title, image, category, confirmed } = event;
+  const { id, date, title, image, category, followers } = event;
 
   const parseDate = formatDate(date);
 
@@ -20,7 +20,7 @@ const Event: FC<EventProps> = (event) => {
         <div className='event-image' style={{ backgroundImage: `url(${image})` }}></div>
         <div className='event-details'>
           <div className='event-date'>
-            <People people={confirmed} />
+            <People people={followers} />
             <Date day={parseDate.format('DD')} month={parseDate.format('MMM')} />
           </div>
           <div className='event-title'>

@@ -11,12 +11,10 @@ export default interface Event {
   category: string;
   organizer: Person;
   price: number;
-  confirmed: Person[];
+  followers: Person[];
   status: string;
   createdAt: date;
   updatedAt: date;
-  coordinate: {
-    latitude: number;
-    longitude: number;
-  };
+  latitude: number;
+  longitude: number;
 }

@@ -1,20 +1,24 @@
-.people {
-  position: relative;
-}
-
 .people-items {
-  display: flex;
-  flex-direction: row;
+  position: relative;
+  width: max-content;
+}
+.people-items .ion-avatar {
   position: relative;
 }
 
 .people-items .ion-avatar:last-of-type {
-  right: -50%;
+  top: 0;
+  right: -25px;
   position: absolute;
 }
+.people-items .ion-avatar:first-of-type {
+  top: 0;
+  right: 0px;
+  position: relative;
+}
 
-.people-count {
+.people-items ion-badge {
   position: absolute;
   top: 0;
-  left: 100%;
+  left: 125%;
 }

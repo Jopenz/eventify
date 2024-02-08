@@ -108,9 +108,13 @@ ion-header {
 ion-input {
   --background: #e9e6e6 !important;
   --color: var(--ion-text-color);
-  --border-radius: 1rem !important;
   --padding-start: 1rem !important;
-  --padding-end: 1rem !important;
+}
+
+ion-textarea {
+  --background: #e9e6e6 !important;
+  --color: var(--ion-text-color);
+  --padding-start: 1rem !important;
 }
 
 ion-thumbnail {

@@ -1,22 +1,25 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useEventStore } from '../store/useEventStore';
 import * as Dayjs from 'dayjs';
+import Event from '../types/Event';
 
 const useToday = () => {
   const events = useEventStore((state) => state.events);
-  const fetchEvents = useEventStore((state) => state.fetchEvents);
+  const [todayEvents, setTodayEvents] = useState<Event[]>([]);
 
   useEffect(() => {
-    if (events.length === 0) {
-      fetchEvents();
-    }
-  }, []);
+    const filter = async () => {
+      const todayEvents = await events.filter((event) => {
+        const eventDate = Dayjs(event.date);
+        const today = Dayjs();
+        return eventDate.isSame(today, 'day');
+      });
+      setTodayEvents(todayEvents);
+    };
 
-  const todayEvents = events.filter((event) => {
-    const eventDate = Dayjs(event.date);
-    const today = Dayjs();
-    return eventDate.isSame(today, 'day');
-  });
+    if (events.length === 0) return;
+    filter();
+  }, [events]);
 
   return {
     events: todayEvents,

@@ -3,6 +3,7 @@ import Event from '../types/Event';
 import * as data from '../db/Events.json';
 import dayjs from 'dayjs';
 import { cloneDeep, merge } from 'lodash';
+import Person from '../types/Person';
 
 type State = {
   loading: boolean;
@@ -10,11 +11,13 @@ type State = {
   search: string;
   open: number;
   fetchEvents: () => Promise<void>;
+  setOpen: (id: number) => void;
   addEvent: (event: Event) => void;
-  setOpen: (open: number) => void;
   removeEvent: (id: number) => void;
   setSearch: (search: string) => void;
   editEvent: (event: Event) => void;
+  followEvent: (id: number, user: Person) => void;
+  unFollowEvent: (id: number, user: Person) => void;
 };
 
 const formatEvents = (data: any) => {
@@ -40,9 +43,30 @@ export const useEventStore = create<State>((set) => ({
     }
     set({ events: formatEvents(data), loading: false });
   },
+  setOpen: (id: number) => set({ open: id }),
   setSearch: (search: string) => set({ search }),
-  setOpen: (open: number) => set({ open }),
-  addEvent: (event) => set((state) => ({ events: [...state.events, event] })),
+  followEvent: (id: number, user: Person) => {
+    set((state) => {
+      const events = cloneDeep(state.events);
+      const index = events.findIndex((event) => event.id === id);
+      events[index].followers.push(user);
+      return { events };
+    });
+  },
+  unFollowEvent: (id: number, user: Person) => {
+    set((state) => {
+      const events = cloneDeep(state.events);
+      const index = events.findIndex((event) => event.id === id);
+      events[index].followers = events[index].followers.filter((follower) => follower.id !== user.id);
+      return { events };
+    });
+  },
+  addEvent: (event) =>
+    set((state) => {
+      event.id = state.events.length + 1;
+      const events = [...state.events, event];
+      return { events };
+    }),
   editEvent: (event) => {
     console.log(event, 'event');
     set((state) => {

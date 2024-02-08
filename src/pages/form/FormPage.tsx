@@ -1,58 +1,136 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonText, IonSearchbar, IonInput, IonList, IonItem } from '@ionic/react';
-import { FC } from 'react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButtons, IonButton, IonIcon } from '@ionic/react';
+import { FC, useEffect } from 'react';
 import Event from '../../types/Event';
-import { useForm, SubmitHandler } from 'react-hook-form';
+import { useForm, SubmitHandler, Resolver, Controller, FormProvider } from 'react-hook-form';
 import './FormPage.css';
+import { EventForm } from './Form';
+import schema from './FormModel';
+import { yupResolver } from '@hookform/resolvers/yup';
+import useMyEvents from '../../hooks/useMyEvents';
+import useUser from '../../hooks/useUser';
+import { saveOutline } from 'ionicons/icons';
+import DateTime from './inputs/DateTime';
+import TextInput from './inputs/TextInput';
+import UploadImage from './inputs/UploadImage';
+import Toggle from './inputs/Toggle';
+import TextArea from './inputs/TextArea';
+import { RouteComponentProps, useHistory } from 'react-router';
+import PlacesModal from '../../modals/places/PlacesModal';
 
-interface FormPageProps {}
+interface FormPageProps
+  extends RouteComponentProps<{
+    id: string;
+  }> {}
 
-interface EventForm extends Event {}
+const defaultValues: EventForm = {
+  id: 0,
+  title: '',
+  date: new Date(),
+  location: '',
+  description: '',
+  image: '',
+  isFeatured: false,
+  category: '',
+  organizer: undefined,
+  price: 50,
+  followers: [],
+  status: 'active',
+  createdAt: new Date(),
+  updatedAt: new Date(),
+  latitude: 0,
+  longitude: 0,
+};
 
-const FormPage: FC<FormPageProps> = () => {
-  const { register, handleSubmit } = useForm<EventForm>();
-  const onSubmit: SubmitHandler<EventForm> = (data) => console.log(data);
+const FormPage: FC<FormPageProps> = ({ match }) => {
+  const history = useHistory();
+  const { addEvent, editEvent } = useMyEvents();
+
+  const methods = useForm({
+    defaultValues,
+    resolver: yupResolver(schema) as Resolver<EventForm>,
+  });
+
+  const { handleSubmit, reset, formState } = methods;
+
+  const { getEvent } = useMyEvents();
+  const { user } = useUser();
+  const { id } = match.params;
+
+  console.log('formState', formState.errors);
+  console.log('watch', methods.watch());
+
+  const onSubmit: SubmitHandler<EventForm> = (data: Event) => {
+    console.log(data);
+    if (data.id === 0) {
+      addEvent(data);
+    } else {
+      editEvent(data);
+    }
+    history.push('/myevents');
+  };
+
+  const handleBack = () => {
+    history.goBack();
+  };
+
+  useEffect(() => {
+    if (Number(id)) {
+      const event = getEvent(id);
+      if (event) {
+        if (event.organizer.id !== user?.id) {
+          history.push('/myevents');
+        }
+        reset(event);
+      }
+    } else {
+      reset({ ...defaultValues, organizer: user });
+    }
+  }, [id]);
 
   return (
-    <IonPage>
-      <IonHeader className='ion-no-border' mode='ios'>
-        <IonToolbar>
-          <IonTitle color='primary'>Eventify</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen className='ion-padding'>
-        <IonHeader className='ion-no-border' mode='ios' collapse='fade'>
-          <IonToolbar></IonToolbar>
-        </IonHeader>
-        <form className='container events'>
-          <IonText color='primary' className='ion-margin-bottom'>
-            Create a new event
-          </IonText>
-          <IonList>
-            <IonItem>
-              <IonInput {...register('title')} type='text' class='custom' labelPlacement='floating' fill='outline' placeholder='Enter text'></IonInput>
-            </IonItem>
-            <IonItem>
-              <IonInput {...register('description')} type='text' class='custom' labelPlacement='floating' fill='outline' placeholder='Enter text'></IonInput>
-            </IonItem>
-            <IonItem>
-              <IonInput {...register('date')} type='date' class='custom' labelPlacement='floating' fill='outline' placeholder='Enter text'></IonInput>
-            </IonItem>
-            <IonItem>
-              <IonInput {...register('price')} type='number' class='custom' labelPlacement='floating' fill='outline' placeholder='Enter text'></IonInput>
-            </IonItem>
-          </IonList>
-
-          {/* <div className='ion-margin-bottom'>
-            <input type='text' placeholder='Location' {...register('location')} />
-          </div>
-          <div className='ion-margin-bottom'>
-            <input type='date' {...register('date')} />
-          </div> */}
-
-          <button onClick={handleSubmit(onSubmit)}>Submit</button>
-        </form>
-      </IonContent>
-    </IonPage>
+    <FormProvider {...methods}>
+      <form className='w-full h-full' onSubmit={handleSubmit(onSubmit)}>
+        <IonPage>
+          <IonHeader>
+            <IonToolbar mode='ios'>
+              <IonButtons slot='start'>
+                <IonButton color='medium' onClick={handleBack}>
+                  Cancel
+                </IonButton>
+              </IonButtons>
+              <IonTitle color='primary'>Create Event</IonTitle>
+              <IonButtons slot='end'>
+                <IonButton type='submit' strong={true}>
+                  <IonIcon size='small' icon={saveOutline} slot='start' />
+                  Save
+                </IonButton>
+              </IonButtons>
+            </IonToolbar>
+          </IonHeader>
+          <IonContent>
+            <br />
+            <UploadImage name='image' label='Upload' />
+            <br />
+            <Toggle name='isFeatured' label='Featured' />
+            <br />
+            <DateTime name='date' label='Date' required={true} />
+            <br />
+            <TextInput name='title' label='Title' required={true} />
+            <br />
+            <TextInput name='category' label='Category' required={true} />
+            <br />
+            <PlacesModal placeholder='Search place' label='Location' name='location' required={true} />
+            {/* <TextInput name='location' label='Location' required={true} /> */}
+            <br />
+            <TextInput name='price' label='Price' type='number' />
+            <br />
+            <TextArea name='description' label='Description' rows={6} required={true} />
+            <br />
+            <br />
+          </IonContent>
+        </IonPage>
+      </form>
+    </FormProvider>
   );
 };
 

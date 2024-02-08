@@ -2,13 +2,13 @@ import * as yup from 'yup';
 
 const schema = yup.object().shape({
   id: yup.number().required(),
-  title: yup.string().required(),
+  title: yup.string().required('Title is required'),
   date: yup.date().min(new Date(), 'Date must be in the future').required('Date is required').nullable().default(undefined),
-  location: yup.string().required(),
-  description: yup.string().required(),
-  image: yup.string().required(),
+  location: yup.string().required('Location is required'),
+  description: yup.string().required('Description is required'),
+  image: yup.string().required('Image is required'),
   isFeatured: yup.boolean().required(),
-  category: yup.string().required(),
+  category: yup.string().required('Category is required'),
   organizer: yup
     .object()
     .shape({
@@ -19,7 +19,7 @@ const schema = yup.object().shape({
     })
     .required(),
   price: yup.number().notRequired(),
-  confirmed: yup
+  followers: yup
     .array()
     .of(
       yup.object().shape({
@@ -33,21 +33,8 @@ const schema = yup.object().shape({
   status: yup.string().required(),
   createdAt: yup.string().required(),
   updatedAt: yup.string().required(),
-  coordinate: yup
-    .object()
-    .shape({
-      latitude: yup.number().required(),
-      longitude: yup.number().required(),
-    })
-    .required(),
-  file: yup.mixed().test('file', 'Image is required', (value, context) => {
-    if (context.parent.id === 0 && !value) {
-      context.createError({ path: 'file', message: 'Image is required' });
-      return false;
-    } else {
-      return true;
-    }
-  }),
+  latitude: yup.number().min(-90).max(90).notOneOf([0]).required(),
+  longitude: yup.number().min(-180).max(180).notOneOf([0]).required(),
 });
 
 export default schema;

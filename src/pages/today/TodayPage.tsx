@@ -1,3 +1,4 @@
+import { FC } from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import { Caption, Title } from '../../components/shared/text/Text';
 import Event from '../../components/shared/event/Event';
@@ -7,7 +8,7 @@ import dayjs from 'dayjs';
 import useToday from '../../hooks/useToday';
 import './TodayPage.css';
 
-const TodayPage: React.FC = () => {
+const TodayPage: FC = () => {
   const { events } = useToday();
 
   const date = dayjs().format('dddd.MMMM.DD');

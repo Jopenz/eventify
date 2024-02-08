@@ -47,6 +47,12 @@
 .justify-between {
   justify-content: space-between;
 }
+.justify-center {
+  justify-content: center;
+}
+.item-center {
+  align-items: center;
+}
 
 .header {
   /* padding-left: var(--ion-space);

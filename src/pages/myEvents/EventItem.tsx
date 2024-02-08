@@ -4,11 +4,13 @@ import Event from '../../types/Event';
 import { formatDate } from '../../commons/Helpers';
 import useMyEvents from '../../hooks/useMyEvents';
 import { trashOutline } from 'ionicons/icons';
+import { useHistory } from 'react-router';
 
 interface EventItemProps extends Event {}
 
 const EventItem: FC<EventItemProps> = ({ id, title, image, date }) => {
-  const { removeEvent, setOpen } = useMyEvents();
+  const history = useHistory();
+  const { removeEvent } = useMyEvents();
   const [present] = useIonActionSheet();
 
   const handleDelete = () => {
@@ -26,12 +28,12 @@ const EventItem: FC<EventItemProps> = ({ id, title, image, date }) => {
           role: 'cancel',
         },
       ],
-      'Delete Event'
+      'Do you want to delete this event?'
     );
   };
 
   const handleEdit = () => {
-    setOpen(id);
+    history.push(`/myevents/${id}`);
   };
   return (
     <IonItemSliding>

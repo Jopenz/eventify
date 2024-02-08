@@ -27,6 +27,7 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 import './theme/commons.css';
 import MyEventsPage from './pages/myEvents/MyEvents';
+import FormPage from './pages/form/FormPage';
 
 setupIonicReact();
 
@@ -41,10 +42,11 @@ const App: React.FC = () => (
           <Route exact path='/events'>
             <EventsPage />
           </Route>
-          <Route path='/myevents'>
+          <Route exact path='/myevents'>
             <MyEventsPage />
           </Route>
-          <Route path='/events/:id' render={(match) => <EventPage {...match} />} />
+          <Route exact path='/events/:id' component={EventPage} />
+          <Route exact path={`/myevents/:id`} component={FormPage} />
           <Route exact path='/'>
             <Redirect to='/events' />
           </Route>

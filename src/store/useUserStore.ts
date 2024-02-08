@@ -9,10 +9,10 @@ type State = {
 
 export const useUserStore = create<State>((set) => ({
   user: {
-    id: 1,
+    id: 11,
     name: 'John Doe',
     email: 'john.doe@gmail.com',
-    avatar: 'https://i.pravatar.cc/150?img=1',
+    avatar: 'https://i.pravatar.cc/150?img=11',
   },
   setUser: (user) => set({ user }),
 }));
