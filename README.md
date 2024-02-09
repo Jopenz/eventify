@@ -13,8 +13,7 @@ Eventify is an application developed as a technical demo for event management. I
 1. Clone the repository
 2. Install Ionic: `npm install -g @ionic/cli`
 3. Install dependencies: `npm install`
-4. Set up the database: [instructions here]
-5. Start the server: `ionic start`
+4. Start the server: `ionic start`
 
 ## Usage
 
