@@ -49,6 +49,7 @@ const App: React.FC = () => (
           <Route exact path='/calendar'>
             <CalendarPage />
           </Route>
+          <Route exact path='/calendar/events/:id' component={EventPage} />
           <Route exact path='/events/:id' component={EventPage} />
           <Route exact path={`/myevents/:id`} component={FormPage} />
           <Route exact path='/'>

@@ -56,17 +56,14 @@ const FormPage: FC<FormPageProps> = ({ match }) => {
   const { user } = useUser();
   const { id } = match.params;
 
-  console.log('formState', formState.errors);
-  console.log('watch', methods.watch());
-
   const onSubmit: SubmitHandler<EventForm> = (data: Event) => {
-    console.log(data);
     if (data.id === 0) {
       addEvent(data);
     } else {
       editEvent(data);
     }
-    history.push('/myevents');
+    reset(defaultValues);
+    history.goBack();
   };
 
   const handleBack = () => {
@@ -74,13 +71,15 @@ const FormPage: FC<FormPageProps> = ({ match }) => {
   };
 
   useEffect(() => {
+    console.log(id);
     if (Number(id)) {
       const event = getEvent(id);
+
       if (event) {
         if (event.organizer.id !== user?.id) {
           history.push('/myevents');
         }
-        reset(event);
+        reset({ ...event, organizer: user });
       }
     } else {
       reset({ ...defaultValues, organizer: user });

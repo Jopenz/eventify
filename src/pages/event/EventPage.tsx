@@ -26,9 +26,9 @@ import Price from '../../components/shared/price/Price';
 import Map from '../../components/shared/maps/Map';
 import useUser from '../../hooks/useUser';
 import People from '../../components/shared/people/People';
-import { heart, heartOutline, star } from 'ionicons/icons';
-import Event from '../../types/Event';
+import { chevronBackOutline, heart, heartOutline, star } from 'ionicons/icons';
 import LoaderSpinner from '../../components/shared/loader/LoaderSpinner';
+import { Icon } from 'ionicons/dist/types/components/icon/icon';
 
 interface EventProps
   extends RouteComponentProps<{
@@ -71,14 +71,17 @@ const EventPage: FC<EventProps> = ({ match }) => {
     }
   };
 
-  console.log('event', event.followers);
+  const handleBack = () => {
+    history.back();
+  };
 
   return (
     <IonPage className='event-page'>
       <IonHeader className='ion-no-border' mode='ios'>
         <IonToolbar>
-          <IonButtons slot='start'>
-            <IonBackButton defaultHref='/events'></IonBackButton>
+          <IonButtons slot='start' onClick={handleBack}>
+            <IonIcon icon={chevronBackOutline} />
+            <IonText>Back</IonText>
           </IonButtons>
           <IonTitle color={'primary'}>Eventify</IonTitle>
         </IonToolbar>

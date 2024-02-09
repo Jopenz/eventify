@@ -41,7 +41,9 @@ export const useEventStore = create<State>((set) => ({
     if (!data && !data['default']) {
       set({ loading: false });
     }
-    set({ events: formatEvents(data), loading: false });
+    const events = formatEvents(data);
+    events.sort((a: Event, b: Event) => a.date.getTime() - b.date.getTime());
+    set({ events, loading: false });
   },
   setOpen: (id: number) => set({ open: id }),
   setSearch: (search: string) => set({ search }),

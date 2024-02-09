@@ -20,7 +20,7 @@ const TodayPage: FC = () => {
           <IonTitle color='primary'>Eventify</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
+      <IonContent fullscreen className='ion-padding'>
         <IonHeader className='ion-no-border' mode='ios'>
           <IonToolbar>
             <Caption color='tertiary' size='sm' className='uppercase'>

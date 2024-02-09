@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useEventStore } from '../store/useEventStore';
 import { useUserStore } from '../store/useUserStore';
 import Event from '../types/Event';
+import dayjs from 'dayjs';
 
 const useEvents = () => {
   const events = useEventStore((state) => state.events);
@@ -53,6 +54,10 @@ const useEvents = () => {
     return events.filter((event) => event.organizer.id === user?.id);
   };
 
+  const searchEventsByDate = (date: Date) => {
+    return events.filter((event) => dayjs(event.date).isSame(date, 'day'));
+  };
+
   const event = events.find((event) => event.id === open);
 
   return {
@@ -69,6 +74,7 @@ const useEvents = () => {
     followEvent,
     unFollowEvent,
     setOpen,
+    searchEventsByDate,
   };
 };
 

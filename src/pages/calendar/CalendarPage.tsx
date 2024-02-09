@@ -1,10 +1,12 @@
-import { IonBackButton, IonButtons, IonContent, IonDatetime, IonHeader, IonPage, IonText, IonTitle, IonToolbar } from '@ionic/react';
+import { IonBackButton, IonButtons, IonContent, IonDatetime, IonHeader, IonItem, IonPage, IonText, IonTitle, IonToolbar } from '@ionic/react';
 import { FC, useEffect, useState } from 'react';
 import { Title } from '../../components/shared/text/Text';
 import useEvents from '../../hooks/useEvents';
 import dayjs from 'dayjs';
 
 import './CalendarPage.css';
+import EventList from './EventList';
+import Event from '../../types/Event';
 
 interface CalendarPageProps {}
 
@@ -16,7 +18,9 @@ interface DatetimeHighlight {
 
 const CalendarPage: FC<CalendarPageProps> = () => {
   const [dates, setDates] = useState<DatetimeHighlight[]>([]);
-  const { events, search, setSearch } = useEvents();
+  const [eventDays, setEventDays] = useState<Event[]>([]);
+  const [selectedDate, setSelectedDate] = useState<string>(dayjs().format('YYYY-MM-DD'));
+  const { events, searchEventsByDate } = useEvents();
   useEffect(() => {
     if (Array.isArray(events) && events.length > 0) {
       const dates = events.map((event) => {
@@ -29,6 +33,13 @@ const CalendarPage: FC<CalendarPageProps> = () => {
       setDates(dates);
     }
   }, [events]);
+
+  useEffect(() => {
+    if (selectedDate) {
+      const events = searchEventsByDate(dayjs(selectedDate).toDate());
+      setEventDays(events);
+    }
+  }, [selectedDate, events]);
 
   return (
     <IonPage className='calendar-page'>
@@ -50,7 +61,23 @@ const CalendarPage: FC<CalendarPageProps> = () => {
           </IonToolbar>
         </IonHeader>
         <div className='container events'>
-          <IonDatetime presentation='date' color='dark' value={dayjs().format('YYYY-MM-DD')} highlightedDates={dates}></IonDatetime>
+          <IonDatetime
+            presentation='date'
+            multiple={false}
+            onIonChange={(e) => {
+              if (Array.isArray(e.detail.value)) {
+                setSelectedDate(e.detail.value[0]);
+              } else {
+                setSelectedDate(e.detail.value!);
+              }
+            }}
+            color='dark'
+            value={selectedDate}
+            highlightedDates={dates}
+          ></IonDatetime>
+          <IonItem>
+            <EventList events={eventDays} />
+          </IonItem>
         </div>
       </IonContent>
     </IonPage>

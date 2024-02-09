@@ -5,7 +5,7 @@
         "date": "2024-02-10T18:00:00Z",
         "location": "Parque Central",
         "description": "El próximo 10 de febrero a las 6:00 p.m., el vibrante escenario del Parque Central se convertirá en el epicentro de una experiencia musical sin igual con el evento \"Concierto en el Parque\". Esta velada promete sumergir a los asistentes en un torrente de melodías cautivadoras y ritmos envolventes que resonarán entre los árboles y la naturaleza circundante.\nDesde los acordes más nostálgicos hasta las vibraciones más contemporáneas, este concierto ofrece un espectro musical diverso que deleitará a personas de todas las edades y gustos.\n\nBajo el cielo estrellado, los presentes tendrán la oportunidad de entregarse por completo a la magia de la música en vivo, una experiencia que promete trascender las barreras del tiempo y el espacio. Acompañados por talentosos artistas locales, los espectadores serán transportados a un mundo de emociones y sensaciones donde cada nota es un hilo que teje historias y despierta emociones profundas en el alma de quienes escuchan.\n\nCon un ambiente festivo y una energía contagiosa, \"Concierto en el Parque\" se erige como un oasis cultural en medio del bullicio urbano, donde la comunión entre la audiencia y los intérpretes crea un vínculo único e irrepetible. Esta experiencia, marcada por la pasión y el talento, quedará grabada en la memoria colectiva como un momento de celebración de la música y la vida. ¡Únete a nosotros y sé parte de esta noche inolvidable!",
-        "image": "https://picsum.photos/id/167/400/600",
+        "image": "https://picsum.photos/id/3/200/300",
         "isFeatured": true,
         "category": "Música",
         "organizer": {
@@ -33,6 +33,126 @@
                 "name": "Sara Johnson",
                 "email": "sara.johnson@gmail.com",
                 "avatar": "https://i.pravatar.cc/150?img=3"
+            },
+            {
+                "id": 1,
+                "name": "John Doe",
+                "email": "john.doe@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=1"
+            },
+            {
+                "id": 2,
+                "name": "Jane Smith",
+                "email": "jane.smith@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=2"
+            },
+            {
+                "id": 3,
+                "name": "Sara Johnson",
+                "email": "sara.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=3"
+            },
+            {
+                "id": 4,
+                "name": "Michael Johnson",
+                "email": "michael.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=4"
+            },
+            {
+                "id": 5,
+                "name": "Emily Davis",
+                "email": "emily.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=5"
+            },
+            {
+                "id": 6,
+                "name": "David Wilson",
+                "email": "david.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=6"
+            },
+            {
+                "id": 7,
+                "name": "Olivia Johnson",
+                "email": "olivia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=7"
+            },
+            {
+                "id": 8,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=8"
+            },
+            {
+                "id": 9,
+                "name": "Sophia Wilson",
+                "email": "sophia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=9"
+            },
+            {
+                "id": 10,
+                "name": "William Davis",
+                "email": "william.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=10"
+            },
+            {
+                "id": 11,
+                "name": "Alex Johnson",
+                "email": "alex.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=11"
+            },
+            {
+                "id": 12,
+                "name": "Emma Smith",
+                "email": "emma.smith@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=12"
+            },
+            {
+                "id": 13,
+                "name": "Daniel Johnson",
+                "email": "daniel.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=13"
+            },
+            {
+                "id": 14,
+                "name": "Sophie Davis",
+                "email": "sophie.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=14"
+            },
+            {
+                "id": 15,
+                "name": "Benjamin Wilson",
+                "email": "benjamin.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=15"
+            },
+            {
+                "id": 16,
+                "name": "Mia Johnson",
+                "email": "mia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=16"
+            },
+            {
+                "id": 17,
+                "name": "Ethan Brown",
+                "email": "ethan.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=17"
+            },
+            {
+                "id": 18,
+                "name": "Isabella Davis",
+                "email": "isabella.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=18"
+            },
+            {
+                "id": 19,
+                "name": "Jacob Wilson",
+                "email": "jacob.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=19"
+            },
+            {
+                "id": 20,
+                "name": "Ava Johnson",
+                "email": "ava.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=20"
             }
         ],
         "status": "Activo",
@@ -47,7 +167,7 @@
         "date": "2024-03-15T10:00:00Z",
         "location": "Centro Cultural",
         "description": "Descubre una gran selección de libros de diferentes géneros.",
-        "image": "https://media.traveler.es/photos/628e6619f179f3649488a0e0/16:9/w_1920,c_limit/Feria.jpg",
+        "image": "https://picsum.photos/id/11/200/300",
         "isFeatured": true,
         "category": "Cultura",
         "organizer": {
@@ -57,7 +177,68 @@
             "avatar": "https://i.pravatar.cc/150?img=2"
         },
         "price": 0,
-        "followers": [],
+        "followers": [
+            {
+                "id": 21,
+                "name": "Oliver Johnson",
+                "email": "oliver.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=21"
+            },
+            {
+                "id": 22,
+                "name": "Emma Davis",
+                "email": "emma.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=22"
+            },
+            {
+                "id": 23,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=23"
+            },
+            {
+                "id": 24,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=24"
+            },
+            {
+                "id": 25,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=25"
+            },
+            {
+                "id": 26,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=26"
+            },
+            {
+                "id": 27,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=27"
+            },
+            {
+                "id": 28,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=28"
+            },
+            {
+                "id": 29,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=29"
+            },
+            {
+                "id": 30,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=30"
+            }
+        ],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
@@ -70,7 +251,7 @@
         "date": "2024-04-20T16:00:00Z",
         "location": "Escuela de cocina gourmet",
         "description": "Aprende a preparar auténticos platos italianos.",
-        "image": "https://turismosanfernando.es/wp-content/uploads/2023/12/tallercocina.png",
+        "image": "https://picsum.photos/id/12/200/300",
         "isFeatured": false,
         "category": "Cocina",
         "organizer": {
@@ -80,7 +261,128 @@
             "avatar": "https://i.pravatar.cc/150?img=3"
         },
         "price": 50,
-        "followers": [],
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z",
@@ -93,7 +395,7 @@
         "date": "2024-05-05T11:00:00Z",
         "location": "Galería de arte contemporáneo",
         "description": "Descubre las obras más recientes de artistas emergentes.",
-        "image": "https://www.santander.es/sites/default/files/mas_web.jpg",
+        "image": "https://picsum.photos/id/15/200/300",
         "isFeatured": true,
         "category": "Arte",
         "organizer": {
@@ -116,7 +418,7 @@
         "date": "2024-06-30T14:00:00Z",
         "location": "Centro de convenciones",
         "description": "Explora las últimas tendencias en inteligencia artificial y su impacto en la sociedad.",
-        "image": "https://cdn-3.expansion.mx/dims4/default/3cd587c/2147483647/strip/true/crop/1254x836+0+0/resize/1800x1200!/format/webp/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F17%2F13%2F57001c6240e5b670a34770b3abbc%2Finteligencia-artificial-creatividad.jpg",
+        "image": "https://picsum.photos/id/45/200/300",
         "isFeatured": true,
         "category": "Tecnología",
         "organizer": {
@@ -139,7 +441,7 @@
         "date": "2024-07-15T19:00:00Z",
         "location": "Teatro Cinépolis",
         "description": "Disfruta de una selección única de películas independientes de todo el mundo.",
-        "image": "https://fotos.perfil.com/2022/04/19/bafici-1343399.jpg",
+        "image": "https://picsum.photos/id/78/200/300",
         "isFeatured": true,
         "category": "Cine",
         "organizer": {
@@ -162,7 +464,7 @@
         "date": "2024-08-20T17:00:00Z",
         "location": "Patio de la cervecería",
         "description": "Prueba una variedad de cervezas artesanales locales y disfruta de música en vivo.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Hacker-Pschorr_Oktoberfest_Girl_Remix.jpg/1024px-Hacker-Pschorr_Oktoberfest_Girl_Remix.jpg",
+        "image": "https://picsum.photos/id/34/200/300",
         "isFeatured": true,
         "category": "Gastronomía",
         "organizer": {
@@ -185,7 +487,7 @@
         "date": "2024-09-05T12:00:00Z",
         "location": "Centro de convenciones",
         "description": "Participa en una emocionante jornada de juegos de mesa con premios y diversión garantizada.",
-        "image": "https://i.ytimg.com/vi/om8BB32uvxc/maxresdefault.jpg",
+        "image": "https://picsum.photos/id/464/200/300",
         "isFeatured": false,
         "category": "Entretenimiento",
         "organizer": {
@@ -208,7 +510,7 @@
         "date": "2024-10-18T14:00:00Z",
         "location": "Centro de Innovación Tecnológica",
         "description": "Explora las últimas innovaciones tecnológicas que están dando forma al futuro.",
-        "image": "https://media-edg.barcelona.cat/wp-content/uploads/2022/01/19140718/mobile-world-congress-estands-760x428.jpg",
+        "image": "https://picsum.photos/id/452/200/300",
         "isFeatured": true,
         "category": "Tecnología",
         "organizer": {
@@ -231,7 +533,7 @@
         "date": "2024-11-12T19:30:00Z",
         "location": "Anfiteatro del Parque",
         "description": "Disfruta de una noche de jazz bajo las estrellas con talentosos músicos locales.",
-        "image": "https://www.valenciaextra.com/uploads/s1/16/34/82/91/0714-jazz-als-barris-i-pobles-valencia-2-foto-live-music-valencia.jpeg",
+        "image": "https://picsum.photos/id/322/200/300",
         "isFeatured": true,
         "category": "Música",
         "organizer": {
@@ -255,7 +557,7 @@
         "date": "2024-12-08T17:00:00Z",
         "location": "Calle Principal",
         "description": "Prueba una variedad de deliciosos platos de comida callejera de todo el mundo.",
-        "image": "https://spanish.xinhuanet.com/photo/2020-01/20/138717737_15794376640081n.jpg",
+        "image": "https://picsum.photos/id/94/200/300",
         "isFeatured": true,
         "category": "Gastronomía",
         "organizer": {
@@ -278,7 +580,7 @@
         "date": "2025-01-20T10:00:00Z",
         "location": "Galería de Arte Urbano",
         "description": "Explora las imágenes más impactantes de la vida urbana capturadas por talentosos fotógrafos.",
-        "image": "https://live.staticflickr.com/762/21004914360_071f6c0c46_b.jpg",
+        "image": "https://picsum.photos/id/349/200/300",
         "isFeatured": true,
         "category": "Arte",
         "organizer": {
@@ -301,7 +603,7 @@
         "date": "2025-02-15T09:00:00Z",
         "location": "Centro de Convenciones",
         "description": "Aprende las mejores prácticas y consejos para iniciar tu propio negocio.",
-        "image": "https://www.que.es/wp-content/uploads/2020/12/seminario.jpg",
+        "image": "https://picsum.photos/id/68/200/300",
         "isFeatured": false,
         "category": "Negocios",
         "organizer": {
@@ -324,7 +626,7 @@
         "date": "2025-03-10T20:00:00Z",
         "location": "Teatro Nacional",
         "description": "Disfruta de una velada elegante con las obras maestras de la música clásica interpretadas por una orquesta sinfónica.",
-        "image": "https://elcorreoweb.es/binrepository/640x490/-35c80/675d400/none/10703/GGBN/la-comunidad-valenciana-la-que-mas-conciertos-de-musica-clasica-ofrece_20742876_20211130090808.jpg",
+        "image": "https://picsum.photos/id/876/200/300",
         "isFeatured": true,
         "category": "Música",
         "organizer": {
@@ -347,7 +649,7 @@
         "date": "2025-04-18T09:00:00Z",
         "location": "Centro de Exposiciones",
         "description": "Descubre las últimas innovaciones en tecnología de la mano de las principales empresas del sector.",
-        "image": "https://www.iguanarobot.com/wp-content/uploads/2023/03/web_6365114002386_big_tp_VL421000_MG19773231.jpg",
+        "image": "https://picsum.photos/id/287/200/300",
         "isFeatured": true,
         "category": "Tecnología",
         "organizer": {
@@ -383,7 +685,7 @@
         "date": "2025-05-22T14:00:00Z",
         "location": "Club de Tenis Municipal",
         "description": "Únete al torneo anual de tenis local y compite contra jugadores de tu comunidad.",
-        "image": "https://www.usta.com/es/home/improve/tips-and-instruction/national/tennis-scoring-rules/_jcr_content/root/content/image.coreimg.90.1280.jpeg/1601570980292/overview.jpeg",
+        "image": "https://picsum.photos/id/674/200/300",
         "isFeatured": false,
         "category": "Deportes",
         "organizer": {
@@ -397,5 +699,3075 @@
         "status": "Activo",
         "createdAt": "2024-02-03T12:00:00Z",
         "updatedAt": "2024-02-03T12:00:00Z"
+    },
+    {
+        "id": 17,
+        "title": "Exposición de arte contemporáneo",
+        "date": "2025-06-15T10:00:00Z",
+        "location": "Galería de Arte Moderno",
+        "description": "Explora las obras de artistas contemporáneos en esta emocionante exposición de arte.",
+        "image": "https://picsum.photos/id/239/200/300",
+        "isFeatured": true,
+        "category": "Arte",
+        "organizer": {
+            "id": 18,
+            "name": "Sophia Johnson",
+            "email": "sophia.johnson@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=18"
+        },
+        "price": 10,
+        "followers": [],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 18,
+        "title": "Conferencia de desarrollo web",
+        "date": "2025-07-20T13:00:00Z",
+        "location": "Centro de Convenciones",
+        "description": "Aprende las últimas tendencias y técnicas de desarrollo web en esta conferencia especializada.",
+        "image": "https://picsum.photos/id/888/200/300",
+        "isFeatured": true,
+        "category": "Tecnología",
+        "organizer": {
+            "id": 19,
+            "name": "David Smith",
+            "email": "david.smith@example.net",
+            "avatar": "https://i.pravatar.cc/150?img=19"
+        },
+        "price": 50,
+        "followers": [],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 19,
+        "title": "Festival de cine independiente",
+        "date": "2025-08-25T18:00:00Z",
+        "location": "Cineclub",
+        "description": "Disfruta de una selección de películas independientes de todo el mundo en este festival de cine.",
+        "image": "https://picsum.photos/id/986/200/300",
+        "isFeatured": false,
+        "category": "Cine",
+        "organizer": {
+            "id": 20,
+            "name": "Emma Wilson",
+            "email": "emma.wilson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=20"
+        },
+        "price": 15,
+        "followers": [],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 20,
+        "title": "Taller de cocina italiana",
+        "date": "2025-09-30T16:00:00Z",
+        "location": "Escuela de Cocina",
+        "description": "Aprende a preparar auténticos platos italianos de la mano de chefs expertos en este taller de cocina.",
+        "image": "https://picsum.photos/id/468/200/300",
+        "isFeatured": false,
+        "category": "Gastronomía",
+        "organizer": {
+            "id": 21,
+            "name": "Liam Brown",
+            "email": "liam.brown@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=21"
+        },
+        "price": 20,
+        "followers": [],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 21,
+        "title": "Partido de fútbol amistoso",
+        "date": "2025-10-15T15:30:00Z",
+        "location": "Estadio Municipal",
+        "description": "Disfruta de un emocionante partido de fútbol amistoso entre dos equipos locales.",
+        "image": "https://picsum.photos/id/111/200/300",
+        "isFeatured": true,
+        "category": "Deportes",
+        "organizer": {
+            "id": 22,
+            "name": "Noah Taylor",
+            "email": "noah.taylor@example.net",
+            "avatar": "https://i.pravatar.cc/150?img=22"
+        },
+        "price": 5,
+        "followers": [],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 22,
+        "title": "Concierto de rock",
+        "date": "2025-11-20T19:30:00Z",
+        "location": "Estadio de la Ciudad",
+        "description": "Vive la energía del rock en directo con este concierto de una reconocida banda internacional.",
+        "image": "https://picsum.photos/id/222/200/300",
+        "isFeatured": true,
+        "category": "Música",
+        "organizer": {
+            "id": 23,
+            "name": "Ava Anderson",
+            "email": "ava.anderson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=23"
+        },
+        "price": 40,
+        "followers": [],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 23,
+        "title": "Exposición de fotografía",
+        "date": "2025-12-10T11:00:00Z",
+        "location": "Galería de Arte Contemporáneo",
+        "description": "Descubre las obras de talentosos fotógrafos en esta exposición de fotografía contemporánea.",
+        "image": "https://picsum.photos/id/999/200/300",
+        "isFeatured": false,
+        "category": "Arte",
+        "organizer": {
+            "id": 24,
+            "name": "Harper Wilson",
+            "email": "harper.wilson@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=24"
+        },
+        "price": 0,
+        "followers": [],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 24,
+        "title": "Festival de comedia",
+        "date": "2026-01-05T20:00:00Z",
+        "location": "Teatro Municipal",
+        "description": "Ríete a carcajadas con los mejores comediantes en este divertido festival de comedia.",
+        "image": "https://picsum.photos/id/341/200/300",
+        "isFeatured": true,
+        "category": "Entretenimiento",
+        "organizer": {
+            "id": 25,
+            "name": "Ethan Thompson",
+            "email": "ethan.thompson@example.net",
+            "avatar": "https://i.pravatar.cc/150?img=25"
+        },
+        "price": 25,
+        "followers": [],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 25,
+        "title": "Feria de moda",
+        "date": "2026-02-15T10:00:00Z",
+        "location": "Centro de Convenciones",
+        "description": "Descubre las últimas tendencias de moda en esta feria que reúne a diseñadores y marcas reconocidas.",
+        "image": "https://picsum.photos/id/441/200/300",
+        "isFeatured": false,
+        "category": "Moda",
+        "organizer": {
+            "id": 26,
+            "name": "Amelia Davis",
+            "email": "amelia.davis@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=26"
+        },
+        "price": 10,
+        "followers": [
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 26,
+        "title": "Conferencia de tecnología",
+        "date": "2024-02-10T14:00:00Z",
+        "location": "Centro de Convenciones",
+        "description": "Explora las últimas innovaciones tecnológicas en esta conferencia de renombrados expertos.",
+        "image": "https://picsum.photos/id/643/200/300",
+        "isFeatured": false,
+        "category": "Tecnología",
+        "organizer": {
+            "id": 27,
+            "name": "John Smith",
+            "email": "john.smith@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=27"
+        },
+        "price": 50,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 27,
+        "title": "Exposición de arte moderno",
+        "date": "2024-02-12T11:00:00Z",
+        "location": "Museo de Arte Moderno",
+        "description": "Sumérgete en el mundo del arte moderno con esta exposición que presenta obras de reconocidos artistas contemporáneos.",
+        "image": "https://picsum.photos/id/783/200/300",
+        "isFeatured": true,
+        "category": "Arte",
+        "organizer": {
+            "id": 28,
+            "name": "Emma Johnson",
+            "email": "emma.johnson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=28"
+        },
+        "price": 15,
+        "followers": [
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 28,
+        "title": "Partido de fútbol",
+        "date": "2024-02-14T18:00:00Z",
+        "location": "Estadio Nacional",
+        "description": "Disfruta de la emoción del fútbol en vivo con este partido entre dos equipos de alto nivel.",
+        "image": "https://picsum.photos/id/235/200/300",
+        "isFeatured": false,
+        "category": "Deportes",
+        "organizer": {
+            "id": 29,
+            "name": "David Brown",
+            "email": "david.brown@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=29"
+        },
+        "price": 20,
+        "followers": [
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 29,
+        "title": "Concierto de música clásica",
+        "date": "2024-02-16T19:30:00Z",
+        "location": "Teatro de la Ópera",
+        "description": "Déjate cautivar por la belleza de la música clásica en este concierto interpretado por una reconocida orquesta.",
+        "image": "https://picsum.photos/id/123/200/300",
+        "isFeatured": true,
+        "category": "Música",
+        "organizer": {
+            "id": 30,
+            "name": "Sophia Wilson",
+            "email": "sophia.wilson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=30"
+        },
+        "price": 30,
+        "followers": [
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 30,
+        "title": "Festival de cine",
+        "date": "2024-02-18T12:00:00Z",
+        "location": "Cineplex",
+        "description": "Sumérgete en el mundo del cine con este festival que presenta una selección de películas de diferentes géneros.",
+        "image": "https://picsum.photos/id/888/200/300",
+        "isFeatured": false,
+        "category": "Cine",
+        "organizer": {
+            "id": 31,
+            "name": "Oliver Davis",
+            "email": "oliver.davis@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=31"
+        },
+        "price": 12,
+        "followers": [
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 31,
+        "title": "Feria gastronómica",
+        "date": "2024-02-20T10:00:00Z",
+        "location": "Parque Central",
+        "description": "Descubre una variedad de deliciosos platos en esta feria que reúne a reconocidos chefs y restaurantes.",
+        "image": "https://picsum.photos/id/777/200/300",
+        "isFeatured": true,
+        "category": "Gastronomía",
+        "organizer": {
+            "id": 32,
+            "name": "Mia Thompson",
+            "email": "mia.thompson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=32"
+        },
+        "price": 8,
+        "followers": [
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 32,
+        "title": "Exhibición de autos clásicos",
+        "date": "2024-02-22T09:00:00Z",
+        "location": "Centro de Convenciones",
+        "description": "Admira la elegancia y la historia de los autos clásicos en esta exhibición que presenta una selección de modelos icónicos.",
+        "image": "https://picsum.photos/id/257/200/300",
+        "isFeatured": false,
+        "category": "Automóviles",
+        "organizer": {
+            "id": 33,
+            "name": "Noah Wilson",
+            "email": "noah.wilson@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=33"
+        },
+        "price": 10,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 33,
+        "title": "Concierto de música electrónica",
+        "date": "2024-02-24T22:00:00Z",
+        "location": "Club Nocturno",
+        "description": "Vive la experiencia de la música electrónica en vivo con este concierto que presenta a reconocidos DJs internacionales.",
+        "image": "https://picsum.photos/id/563/200/300",
+        "isFeatured": true,
+        "category": "Música",
+        "organizer": {
+            "id": 34,
+            "name": "Liam Johnson",
+            "email": "liam.johnson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=34"
+        },
+        "price": 25,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 34,
+        "title": "Festival de danza",
+        "date": "2024-02-26T16:00:00Z",
+        "location": "Teatro Municipal",
+        "description": "Disfruta de la belleza y la expresión artística de la danza en este festival que presenta diferentes estilos y coreografías.",
+        "image": "https://picsum.photos/id/234/200/300",
+        "isFeatured": false,
+        "category": "Arte",
+        "organizer": {
+            "id": 35,
+            "name": "Charlotte Davis",
+            "email": "charlotte.davis@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=35"
+        },
+        "price": 18,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 35,
+        "title": "Torneo de ajedrez",
+        "date": "2024-02-28T13:00:00Z",
+        "location": "Centro de Ajedrez",
+        "description": "Demuestra tus habilidades en el ajedrez en este torneo que reúne a jugadores de diferentes niveles.",
+        "image": "https://picsum.photos/id/53/200/300",
+        "isFeatured": true,
+        "category": "Deportes",
+        "organizer": {
+            "id": 36,
+            "name": "Lucas Thompson",
+            "email": "lucas.thompson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=36"
+        },
+        "price": 5,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Activo",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 36,
+        "title": "Climate Change Symposium",
+        "date": "2024-02-10T09:00:00Z",
+        "location": "Conference Center",
+        "description": "Join leading experts in discussing the latest research and solutions for addressing climate change.",
+        "image": "https://picsum.photos/id/136/200/300",
+        "isFeatured": true,
+        "category": "Environment",
+        "organizer": {
+            "id": 37,
+            "name": "Olivia Smith",
+            "email": "olivia.smith@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=37"
+        },
+        "price": 0,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 37,
+        "title": "Superconductors Workshop",
+        "date": "2024-02-12T14:00:00Z",
+        "location": "Research Institute",
+        "description": "Explore the fascinating world of superconductors and their potential applications in this interactive workshop.",
+        "image": "https://picsum.photos/id/237/200/300",
+        "isFeatured": false,
+        "category": "Science",
+        "organizer": {
+            "id": 38,
+            "name": "Ethan Johnson",
+            "email": "ethan.johnson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=38"
+        },
+        "price": 15,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 38,
+        "title": "ISE Europe Conference",
+        "date": "2024-02-14T10:00:00Z",
+        "location": "Exhibition Center",
+        "description": "Discover the latest innovations and trends in the field of integrated systems and AV technology at the ISE Europe Conference.",
+        "image": "https://picsum.photos/id/338/200/300",
+        "isFeatured": true,
+        "category": "Technology",
+        "organizer": {
+            "id": 39,
+            "name": "Ava Davis",
+            "email": "ava.davis@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=39"
+        },
+        "price": 50,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 39,
+        "title": "International Medical Conference",
+        "date": "2024-02-16T08:00:00Z",
+        "location": "Convention Center",
+        "description": "Join medical professionals from around the world to discuss the latest advancements and research in various medical specialties.",
+        "image": "https://picsum.photos/id/439/200/300",
+        "isFeatured": false,
+        "category": "Medicine",
+        "organizer": {
+            "id": 40,
+            "name": "Mia Wilson",
+            "email": "mia.wilson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=40"
+        },
+        "price": 100,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 40,
+        "title": "Canine Expo",
+        "date": "2024-02-18T11:00:00Z",
+        "location": "Dog Park",
+        "description": "Celebrate the world of dogs at this exciting expo featuring dog shows, agility competitions, and various dog-related activities.",
+        "image": "https://picsum.photos/id/440/200/300",
+        "isFeatured": true,
+        "category": "Pets",
+        "organizer": {
+            "id": 41,
+            "name": "Noah Thompson",
+            "email": "noah.thompson@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=41"
+        },
+        "price": 8,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 41,
+        "title": "Elegant Evening Soirée",
+        "date": "2024-02-20T19:00:00Z",
+        "location": "Luxury Venue",
+        "description": "Indulge in an evening of sophistication and elegance at this glamorous soirée featuring live music, fine dining, and exquisite cocktails.",
+        "image": "https://picsum.photos/id/641/200/300",
+        "isFeatured": false,
+        "category": "Social",
+        "organizer": {
+            "id": 42,
+            "name": "Sophia Davis",
+            "email": "sophia.davis@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=42"
+        },
+        "price": 150,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 42,
+        "title": "Innovations in Medicine Symposium",
+        "date": "2024-02-22T13:00:00Z",
+        "location": "Medical Center",
+        "description": "Explore groundbreaking innovations and advancements in the field of medicine at this symposium featuring renowned experts.",
+        "image": "https://picsum.photos/id/742/200/300",
+        "isFeatured": true,
+        "category": "Medicine",
+        "organizer": {
+            "id": 43,
+            "name": "Oliver Johnson",
+            "email": "oliver.johnson@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=43"
+        },
+        "price": 20,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 43,
+        "title": "Canine Fashion Show",
+        "date": "2024-02-24T15:00:00Z",
+        "location": "Fashion Mall",
+        "description": "Witness the latest trends in canine fashion as adorable dogs strut down the runway in stylish outfits and accessories.",
+        "image": "https://picsum.photos/id/942/200/300",
+        "isFeatured": false,
+        "category": "Pets",
+        "organizer": {
+            "id": 44,
+            "name": "Emma Wilson",
+            "email": "emma.wilson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=44"
+        },
+        "price": 12,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 44,
+        "title": "Artificial Intelligence Summit",
+        "date": "2024-02-26T10:00:00Z",
+        "location": "Tech Hub",
+        "description": "Explore the latest advancements and applications of artificial intelligence in various industries at this informative summit.",
+        "image": "https://picsum.photos/id/54/200/300",
+        "isFeatured": true,
+        "category": "Technology",
+        "organizer": {
+            "id": 45,
+            "name": "William Davis",
+            "email": "william.davis@example.com",
+            "avatar": "https://i.pravatar.cc/150?img=45"
+        },
+        "price": 30,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
+    },
+    {
+        "id": 45,
+        "title": "Gastronomy Festival",
+        "date": "2024-02-28T12:00:00Z",
+        "location": "Food Park",
+        "description": "Experience a culinary journey like no other at this gastronomy festival showcasing a wide variety of international cuisines.",
+        "image": "https://picsum.photos/id/645/200/300",
+        "isFeatured": false,
+        "category": "Food",
+        "organizer": {
+            "id": 46,
+            "name": "James Thompson",
+            "email": "james.thompson@example.org",
+            "avatar": "https://i.pravatar.cc/150?img=46"
+        },
+        "price": 10,
+        "followers": [
+            {
+                "id": 31,
+                "name": "Emma Wilson",
+                "email": "emma.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=31"
+            },
+            {
+                "id": 32,
+                "name": "Noah Johnson",
+                "email": "noah.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=32"
+            },
+            {
+                "id": 33,
+                "name": "Ava Brown",
+                "email": "ava.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=33"
+            },
+            {
+                "id": 34,
+                "name": "Liam Davis",
+                "email": "liam.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=34"
+            },
+            {
+                "id": 35,
+                "name": "Olivia Wilson",
+                "email": "olivia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=35"
+            },
+            {
+                "id": 36,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=36"
+            },
+            {
+                "id": 37,
+                "name": "Jackson Brown",
+                "email": "jackson.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=37"
+            },
+            {
+                "id": 38,
+                "name": "Aiden Davis",
+                "email": "aiden.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=38"
+            },
+            {
+                "id": 39,
+                "name": "Mia Wilson",
+                "email": "mia.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=39"
+            },
+            {
+                "id": 40,
+                "name": "Lucas Johnson",
+                "email": "lucas.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=40"
+            },
+            {
+                "id": 41,
+                "name": "Isabella Brown",
+                "email": "isabella.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=41"
+            },
+            {
+                "id": 42,
+                "name": "Jacob Davis",
+                "email": "jacob.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=42"
+            },
+            {
+                "id": 43,
+                "name": "William Wilson",
+                "email": "william.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=43"
+            },
+            {
+                "id": 44,
+                "name": "Sophia Johnson",
+                "email": "sophia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=44"
+            },
+            {
+                "id": 45,
+                "name": "James Brown",
+                "email": "james.brown@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=45"
+            },
+            {
+                "id": 46,
+                "name": "Olivia Davis",
+                "email": "olivia.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=46"
+            },
+            {
+                "id": 47,
+                "name": "Liam Wilson",
+                "email": "liam.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=47"
+            },
+            {
+                "id": 48,
+                "name": "Amelia Johnson",
+                "email": "amelia.johnson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=48"
+            },
+            {
+                "id": 49,
+                "name": "Benjamin Davis",
+                "email": "benjamin.davis@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=49"
+            },
+            {
+                "id": 50,
+                "name": "Charlotte Wilson",
+                "email": "charlotte.wilson@example.com",
+                "avatar": "https://i.pravatar.cc/150?img=50"
+            }
+        ],
+        "status": "Active",
+        "createdAt": "2024-02-03T12:00:00Z",
+        "updatedAt": "2024-02-03T12:00:00Z",
+        "latitude": 40.7128,
+        "longitude": -74.0060
     }
 ]
