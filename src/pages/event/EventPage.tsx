@@ -111,7 +111,7 @@ const EventPage: FC<EventProps> = ({ match }) => {
                     <People label='Followers' people={event.followers} />
                     {owner && (
                       <IonButtons slot='end'>
-                        <IonButton fill='solid' shape='round' routerLink={`/myevents/${event.id}/edit`}>
+                        <IonButton fill='solid' shape='round' routerLink={`/myevents/${event.id}`}>
                           <IonIcon slot='start' icon={star}></IonIcon>
                           Edit
                         </IonButton>

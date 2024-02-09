@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useEventStore } from '../store/useEventStore';
-import * as Dayjs from 'dayjs';
+import dayjs from 'dayjs';
 import Event from '../types/Event';
 
 const useToday = () => {
@@ -10,8 +10,8 @@ const useToday = () => {
   useEffect(() => {
     const filter = async () => {
       const todayEvents = await events.filter((event) => {
-        const eventDate = Dayjs(event.date);
-        const today = Dayjs();
+        const eventDate = dayjs(event.date);
+        const today = dayjs();
         return eventDate.isSame(today, 'day');
       });
       setTodayEvents(todayEvents);

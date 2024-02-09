@@ -1,7 +1,7 @@
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { calendarNumberOutline, bookmarksOutline, sparklesOutline } from 'ionicons/icons';
+import { calendarNumberOutline, bookmarksOutline, sparklesOutline, calendarOutline } from 'ionicons/icons';
 import '@fontsource-variable/onest';
 
 import TodayPage from './pages/today/TodayPage';
@@ -28,6 +28,7 @@ import './theme/variables.css';
 import './theme/commons.css';
 import MyEventsPage from './pages/myEvents/MyEvents';
 import FormPage from './pages/form/FormPage';
+import CalendarPage from './pages/calendar/CalendarPage';
 
 setupIonicReact();
 
@@ -45,6 +46,9 @@ const App: React.FC = () => (
           <Route exact path='/myevents'>
             <MyEventsPage />
           </Route>
+          <Route exact path='/calendar'>
+            <CalendarPage />
+          </Route>
           <Route exact path='/events/:id' component={EventPage} />
           <Route exact path={`/myevents/:id`} component={FormPage} />
           <Route exact path='/'>
@@ -59,6 +63,10 @@ const App: React.FC = () => (
           <IonTabButton tab='events' href='/events'>
             <IonIcon aria-hidden='true' icon={sparklesOutline} />
             <IonLabel>Events</IonLabel>
+          </IonTabButton>
+          <IonTabButton tab='calendar' href='/calendar'>
+            <IonIcon aria-hidden='true' icon={calendarOutline} />
+            <IonLabel>Calendar</IonLabel>
           </IonTabButton>
           <IonTabButton tab='myevents' href='/myevents'>
             <IonIcon aria-hidden='true' icon={bookmarksOutline} />
