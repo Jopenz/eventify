@@ -24,8 +24,8 @@ Eventify is an application developed as a technical demo for event management. I
 
 - [YouTube](https://youtu.be/zfU4s4JbV8U)
 
-![Eventify Events](https://ibb.co/GJWBWsG)
-![Eventify Event](https://ibb.co/s2VvK7C)
+![Eventify Events](https://i.ibb.co/59rtrYC/1.jpg)
+![Eventify Event](https://i.ibb.co/37CypKv/2.jpg)
 
 ## License
 
